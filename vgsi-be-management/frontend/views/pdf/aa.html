@@ -1,0 +1,47 @@
+<style> p{ margin: 2px} </style><div>
+    <div style="margin-top: 25px;">
+        <div style="width: 330px;float: left">
+            <p style="margin-left:120.4pt;"><span style="color:#4f81bc; font-family:times new roman">TH&Ocirc;NG B&Aacute;O THU PH&Iacute; TH&Aacute;NG</span><span style="color:#4f81bc; font-family:times new roman">&nbsp;{{MONTH/YEAR}}&nbsp;EXPENSE NOTICE {{MONTH/YEAR}}</span></p>
+        </div>
+
+        <div style="float: right">
+            <p style="margin-left:57.75pt; text-align:right"><span style="font-family:times new roman">Số: </span><span style="font-size:14px">{{APARTMENT.name}}</span><span style="font-family:times new roman">_{{MONTH/YEAR}}_TBP</span></p>
+
+            <p style="margin-left:104.2pt"><span style="font-family:times new roman">Ng&agrave;y:</span><span style="font-family:times new roman">&nbsp;{{DAY/MONTH/YEAR}}</span></p>
+        </div>
+
+        <div style="clear: both;height: 0;">&nbsp;</div>
+    </div>
+
+    <p style="margin: 5px"><span style="font-size:14px">&nbsp;<strong><span style="font-family:times new roman">T&ecirc;n Kh&aacute;ch h&agrave;ng/ Client&#39;s Name: </span></strong><span style="font-family:times new roman">{{APARTMENT.resident_user_name}}&nbsp;&nbsp;</span></span> <span style="font-size:14px"><strong><span style="font-family:times new roman">&nbsp;M&atilde; căn hộ :</span></strong><strong><span style="font-family:times new roman">&nbsp;&nbsp;</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong>&nbsp;{{APARTMENT.name}}</span></p>
+
+    <div>
+        {{#NOT_EMPTY_BUILDING}}
+        <ol style="margin: 0pt; margin-bottom: 3px; padding-left: 0pt;" type="I">
+            <li style="margin-left: 14.9pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                 <span style="width: 180pt; display: inline-block;">
+                           <span style="letter-spacing: normal;">Phí quản lý/</span><span style="letter-spacing: -1.15pt;">&nbsp;</span>
+                          <span style="letter-spacing: normal;">Management</span><span style="letter-spacing: -0.35pt;">&nbsp;</span><span style="letter-spacing: normal;">Cost</span>
+                 </span>
+                {{#FEE_BUILDING}} {{#price}}
+                <span style="font-size: 8pt; letter-spacing: normal;">Từ/from</span><span style="font-size: 8pt; letter-spacing: normal;">&nbsp;&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{start_time}}</span>
+                <span style="font-size: 8pt; letter-spacing: normal;">đến/to</span><span style="font-size: 8pt; letter-spacing: 0.8pt;">&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{end_time}}</span>
+                {{/price}}  {{/FEE_BUILDING}}
+            </li>
+        </ol>
+        <table style="width: 100%; border: 1pt solid #000000; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Diện tích / Total area</span></strong></p>
+                </td>
+                <td style="width: 73.85pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Đơn giá/m</span></strong>2</p>
+                </td>
+                <td style="width: 58.25pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Unit Price/m</span></strong>2</p>
+                </td>
+                <td style="width: 87.15pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: soli

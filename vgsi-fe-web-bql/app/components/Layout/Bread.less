@@ -1,0 +1,28 @@
+@import "~themes/vars.less";
+
+.bread {
+  box-shadow: @shadow-2;
+  :global {
+    .ant-breadcrumb {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &.collapsed {
+    width: ~"calc(100% - 80px)";
+  }
+  // line-height: 40px !important;
+  .ant-select-selection__placeholder {
+    color: #817676;
+  }
+  .ant-select-arrow {
+    color: #817676;
+  }
+}
+
+// @media (max-width: 767px) {
+//   .bread {
+//     margin-bottom: 12px;
+//   }
+// }

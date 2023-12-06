@@ -1,0 +1,27 @@
+/*
+ *
+ * NotificationFeeDetail constants
+ *
+ */
+
+export const DEFAULT_ACTION = "app/NotificationFeeDetail/DEFAULT_ACTION";
+
+
+
+export const FETCH_NOTIFICATION_DETAIL = "app/NotificationFeeDetail/FETCH_NOTIFICATION_DETAIL";
+export const FETCH_NOTIFICATION_DETAIL_COMPLETE = "app/NotificationFeeDetail/FETCH_NOTIFICATION_DETAIL_COMPLETE";
+
+export const FETCH_APARTMENT_FEE_REMINDER = "app/NotificationFeeDetail/FETCH_APARTMENT_FEE_REMINDER";
+export const FETCH_APARTMENT_FEE_REMINDER_COMPLETE = "app/NotificationFeeDetail/FETCH_APARTMENT_FEE_REMINDER_COMPLETE";
+
+export const FETCH_APARTMENT_SENT = "app/NotificationFeeDetail/FETCH_APARTMENT_SENT";
+export const FETCH_APARTMENT_SENT_COMPLETE = "app/NotificationFeeDetail/FETCH_APARTMENT_SENT_COMPLETE";
+
+export const FETCH_ANNOUNCEMENT_TEMPLATE_FEE = "app/NotificationFeeDetail/FETCH_ANNOUNCEMENT_TEMPLATE_FEE";
+export const FETCH_ANNOUNCEMENT_TEMPLATE_FEE_COMPLETE = "app/NotificationFeeDetail/FETCH_ANNOUNCEMENT_TEMPLATE_FEE_COMPLETE";
+
+export const CREATE_NOTIFICATION_FEE_REMINDER = "app/NotificationFeeDetail/CREATE_NOTIFICATION_FEE_REMINDER";
+export const CREATE_NOTIFICATION_FEE_REMINDER_COMPLETE = "app/NotificationFeeDetail/CREATE_NOTIFICATION_FEE_REMINDER_COMPLETE";
+
+export const FETCH_CATEGORY = "app/NotificationFeeDetail/FETCH_CATEGORY";
+export const FETCH_CATEGORY_COMPLETE = "app/NotificationFeeDetail/FETCH_CATEGORY_COMPLETE";

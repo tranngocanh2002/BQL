@@ -1,0 +1,21 @@
+export const DEFAULT_ACTION = "app/TaskDetail/DEFAULT_ACTION";
+
+export const FETCH_DETAIL_TASK = "app/TaskDetail/FETCH_DETAIL_TASK";
+export const FETCH_DETAIL_TASK_COMPLETE =
+  "app/TaskDetail/FETCH_DETAIL_TASK_COMPLETE";
+
+export const FETCH_TASK_COMMENTS = "app/TaskDetail/FETCH_TASK_COMMENTS";
+export const FETCH_TASK_COMMENTS_COMPLETE =
+  "app/TaskDetail/FETCH_TASK_COMMENTS_COMPLETE";
+
+export const CHANGE_TASK_STATUS = "app/TaskDetail/CHANGE_TASK_STATUS";
+export const CHANGE_TASK_STATUS_COMPLETE =
+  "app/TaskDetail/CHANGE_TASK_STATUS_COMPLETE";
+export const CHANGE_TASK_STATUS_ERROR =
+  "app/TaskDetail/CHANGE_TASK_STATUS_ERROR";
+
+export const CREATE_TASK_COMMENT = "app/TaskDetail/CREATE_TASK_COMMENT";
+export const CREATE_TASK_COMMENT_COMPLETE =
+  "app/TaskDetail/CREATE_TASK_COMMENT_COMPLETE";
+export const CREATE_TASK_COMMENT_ERROR =
+  "app/TaskDetail/CREATE_TASK_COMMENT_ERROR";

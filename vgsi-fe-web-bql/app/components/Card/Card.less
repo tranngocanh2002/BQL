@@ -1,0 +1,43 @@
+@import '~themes/vars.less';
+.pageRoot {
+  .contentInner {
+    background: #fff;
+    padding: 24px;
+    padding-top: 0px;
+    box-shadow: @shadow-1;
+    min-height: ~'calc(100vh - 235px)';
+    position: relative;
+  }
+
+  .contentFixHeight{
+    height: ~'calc(100vh - 200px)';
+  }
+  .contentNoPadding{
+    padding: 0;
+  }
+  .contentNoMinHeight{
+    min-height: 0;
+  }
+
+  @media (max-width: 767px) {
+    .contentInner {
+      padding: 12px;
+      min-height: ~'calc(100vh - 210px)';
+    }
+    .contentFixHeight{
+      height:  ~'calc(100vh - 210px)';
+    }
+    .contentNoPadding{
+      padding: 0;
+    }
+    .contentNoMinHeight{
+      min-height: 0;
+    }
+  
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #787e8f4a;
+  }
+
+}

@@ -1,0 +1,3487 @@
+{
+  "languages": [
+    {
+      "language_id": "en-GB",
+      "language": "en",
+      "country": "gb",
+      "name": "English (UK)",
+      "name_ascii": "English (UK)",
+      "status": 1
+    },
+    {
+      "language_id": "en-US",
+      "language": "en",
+      "country": "us",
+      "name": "English (US)",
+      "name_ascii": "English (US)",
+      "status": 1
+    },
+    {
+      "language_id": "vi-VN",
+      "language": "vi",
+      "country": "vn",
+      "name": "Tiếng Việt",
+      "name_ascii": "Vietnamese",
+      "status": 1
+    }
+  ],
+  "languageSources": [
+    { "id": 1, "category": "frontend", "message": "Invalid data" },
+    { "id": 2, "category": "frontend", "message": "Upload successfully" },
+    { "id": 3, "category": "frontend", "message": "Upload not successful" },
+    { "id": 4, "category": "frontend", "message": "Data of files incorrect" },
+    { "id": 5, "category": "frontend", "message": "Create success" },
+    { "id": 6, "category": "frontend", "message": "System busy" },
+    { "id": 7, "category": "frontend", "message": "Create Category Success" },
+    {
+      "id": 8,
+      "category": "frontend",
+      "message": "Category using, not delete"
+    },
+    { "id": 9, "category": "frontend", "message": "Delete Success" },
+    {
+      "id": 10,
+      "category": "frontend",
+      "message": "The system is busy, please try again later"
+    },
+    { "id": 11, "category": "frontend", "message": "invalid phone number" },
+    {
+      "id": 12,
+      "category": "frontend",
+      "message": "Apartment contains residents, not deleted"
+    },
+    { "id": 13, "category": "frontend", "message": "Delete success" },
+    {
+      "id": 14,
+      "category": "frontend",
+      "message": "The apartment has a head of household"
+    },
+    { "id": 15, "category": "frontend", "message": "Add success" },
+    { "id": 16, "category": "frontend", "message": "Remove success" },
+    { "id": 17, "category": "frontend", "message": "Update success" },
+    {
+      "id": 18,
+      "category": "frontend",
+      "message": "Email or password invalid"
+    },
+    {
+      "id": 19,
+      "category": "frontend",
+      "message": "User not found or is activated"
+    },
+    {
+      "id": 20,
+      "category": "frontend",
+      "message": "invalid information, password confirm and password not match "
+    },
+    { "id": 21, "category": "frontend", "message": "Old password incorrect" },
+    { "id": 22, "category": "frontend", "message": "Change password error" },
+    { "id": 23, "category": "frontend", "message": "Change Password Success" },
+    { "id": 24, "category": "frontend", "message": "Email exist" },
+    { "id": 25, "category": "frontend", "message": "Refresh Token not found" },
+    { "id": 26, "category": "frontend", "message": "Management User invalid" },
+    { "id": 27, "category": "frontend", "message": "Not permission" },
+    {
+      "id": 28,
+      "category": "frontend",
+      "message": "Category contains request, not deleted"
+    },
+    { "id": 29, "category": "frontend", "message": "Phone exist" },
+    { "id": 30, "category": "frontend", "message": "Change Status Success" },
+    { "id": 31, "category": "frontend", "message": "Service Exist" },
+    { "id": 32, "category": "frontend", "message": "Service is being used" },
+    { "id": 33, "category": "frontend", "message": "Import success" },
+    { "id": 34, "category": "yii", "message": "Error" },
+    {
+      "id": 35,
+      "category": "yii",
+      "message": "An internal server error occurred."
+    },
+    { "id": 36, "category": "resident", "message": "Invalid data" },
+    { "id": 37, "category": "resident", "message": "Upload successfully" },
+    { "id": 38, "category": "resident", "message": "Upload not successful" },
+    { "id": 39, "category": "resident", "message": "Data of files incorrect" },
+    { "id": 40, "category": "resident", "message": "Add success" },
+    { "id": 41, "category": "resident", "message": "System busy" },
+    {
+      "id": 42,
+      "category": "resident",
+      "message": "Not the head of the household"
+    },
+    {
+      "id": 43,
+      "category": "resident",
+      "message": "Cannot add household head"
+    },
+    { "id": 44, "category": "resident", "message": "Remove success" },
+    {
+      "id": 45,
+      "category": "resident",
+      "message": "User not found or is activated"
+    },
+    { "id": 46, "category": "resident", "message": "Phone empty" },
+    { "id": 47, "category": "resident", "message": "Delete success" },
+    {
+      "id": 48,
+      "category": "resident",
+      "message": "request category does not exist"
+    },
+    { "id": 49, "category": "resident", "message": "Create success" },
+    { "id": 50, "category": "resident", "message": "Update success" },
+    { "id": 51, "category": "resident", "message": "Refresh Token not found" },
+    { "id": 52, "category": "resident", "message": "Management User invalid" },
+    { "id": 53, "category": "resident", "message": "Change Status Success" },
+    { "id": 54, "category": "resident", "message": "Delete Success" },
+    { "id": 55, "category": "common", "message": "ID" },
+    { "id": 56, "category": "common", "message": "Title" },
+    { "id": 57, "category": "common", "message": "Description" },
+    { "id": 58, "category": "common", "message": "Content" },
+    { "id": 59, "category": "common", "message": "Attach" },
+    { "id": 60, "category": "common", "message": "Status" },
+    { "id": 61, "category": "common", "message": "Is Send Push" },
+    { "id": 62, "category": "common", "message": "Is Send Email" },
+    { "id": 63, "category": "common", "message": "Is Send Sms" },
+    { "id": 64, "category": "common", "message": "Send At" },
+    { "id": 65, "category": "common", "message": "Is Send" },
+    { "id": 66, "category": "common", "message": "Building Cluster ID" },
+    { "id": 67, "category": "common", "message": "Created At" },
+    { "id": 68, "category": "common", "message": "Updated At" },
+    { "id": 69, "category": "common", "message": "Created By" },
+    { "id": 70, "category": "common", "message": "Updated By" },
+    { "id": 71, "category": "common", "message": "Announcement Category ID" },
+    { "id": 72, "category": "common", "message": "Total Apartment Send" },
+    { "id": 73, "category": "common", "message": "Total Apartment Open" },
+    { "id": 74, "category": "common", "message": "Cr Minutes" },
+    { "id": 75, "category": "common", "message": "Cr Hours" },
+    { "id": 76, "category": "common", "message": "Cr Days" },
+    { "id": 77, "category": "common", "message": "Cr Months" },
+    { "id": 78, "category": "common", "message": "Cr Days Of Week" },
+    { "id": 79, "category": "common", "message": "Name" },
+    { "id": 80, "category": "common", "message": "Label Color" },
+    { "id": 81, "category": "common", "message": "Announcement Campaign ID" },
+    { "id": 82, "category": "common", "message": "Building Area ID" },
+    { "id": 83, "category": "common", "message": "Apartment ID" },
+    { "id": 84, "category": "common", "message": "Read At" },
+    { "id": 85, "category": "common", "message": "Tags" },
+    { "id": 86, "category": "common", "message": "Code" },
+    { "id": 87, "category": "common", "message": "Parent Path" },
+    { "id": 88, "category": "common", "message": "Medias" },
+    { "id": 89, "category": "common", "message": "Is Deleted" },
+    { "id": 90, "category": "common", "message": "Resident User ID" },
+    { "id": 91, "category": "common", "message": "Capacity" },
+    { "id": 92, "category": "common", "message": "Invalid data" },
+    { "id": 93, "category": "common", "message": "Parent ID" },
+    { "id": 94, "category": "common", "message": "Domain" },
+    { "id": 95, "category": "common", "message": "Email" },
+    { "id": 96, "category": "common", "message": "Hotline" },
+    { "id": 97, "category": "common", "message": "Address" },
+    { "id": 98, "category": "common", "message": "One Signal App Id" },
+    { "id": 99, "category": "common", "message": "One Signal Api Key" },
+    { "id": 100, "category": "common", "message": "Bank Account" },
+    { "id": 101, "category": "common", "message": "Tax Code" },
+    { "id": 102, "category": "common", "message": "Tax Info" },
+    { "id": 103, "category": "common", "message": "Auth Item Tags" },
+    { "id": 104, "category": "common", "message": "City ID" },
+    { "id": 105, "category": "common", "message": "Management User ID" },
+    { "id": 106, "category": "common", "message": "Path" },
+    { "id": 107, "category": "common", "message": "Type" },
+    { "id": 108, "category": "common", "message": "Size" },
+    { "id": 109, "category": "common", "message": "Email has exist!" },
+    {
+      "id": 110,
+      "category": "common",
+      "message": "invalid information, password has more than 6 characters and include a-z; A-Z; 0-9 or special character \"!@#$%^&*()"
+    },
+    {
+      "id": 111,
+      "category": "common",
+      "message": "invalid information, password confirm has more than 6 characters and include a-z; A-Z; 0-9 or special character \"!@#$%^&*()"
+    },
+    {
+      "id": 112,
+      "category": "common",
+      "message": "invalid information, password confirm and password not match "
+    },
+    { "id": 113, "category": "common", "message": "invalid phone number" },
+    {
+      "id": 114,
+      "category": "common",
+      "message": "Your request was made with invalid credentials"
+    },
+    { "id": 115, "category": "common", "message": "Old password invalid" },
+    { "id": 116, "category": "common", "message": "Token" },
+    { "id": 117, "category": "common", "message": "Token Hash" },
+    { "id": 118, "category": "common", "message": "Expired At" },
+    {
+      "id": 119,
+      "category": "common",
+      "message": "Management User Access Token Id"
+    },
+    { "id": 120, "category": "common", "message": "Device Token" },
+    { "id": 121, "category": "common", "message": "Is Read" },
+    { "id": 122, "category": "common", "message": "Is Hidden" },
+    { "id": 123, "category": "common", "message": "Request ID" },
+    { "id": 124, "category": "common", "message": "Request Answer ID" },
+    {
+      "id": 125,
+      "category": "common",
+      "message": "Request Answer Internal ID"
+    },
+    { "id": 126, "category": "common", "message": "Service Bill ID" },
+    { "id": 127, "category": "common", "message": "Device Toke" },
+    { "id": 128, "category": "common", "message": "Auth Group is being used" },
+    { "id": 129, "category": "common", "message": "Delete Success" },
+    { "id": 130, "category": "common", "message": "Role exits" },
+    { "id": 131, "category": "common", "message": "Request Category ID" },
+    { "id": 132, "category": "common", "message": "Total Answer" },
+    { "id": 133, "category": "common", "message": "Color" },
+    { "id": 134, "category": "common", "message": "Auth Group Ids" },
+    { "id": 135, "category": "common", "message": "Auth Group ID" },
+    { "id": 136, "category": "common", "message": "Date" },
+    { "id": 137, "category": "common", "message": "Total" },
+    {
+      "id": 138,
+      "category": "common",
+      "message": "Resident User Access Token Id"
+    },
+    { "id": 139, "category": "common", "message": "Announcement Item ID" },
+    { "id": 140, "category": "common", "message": "Logo" },
+    { "id": 141, "category": "common", "message": "Icon Name" },
+    { "id": 142, "category": "common", "message": "Service Type" },
+    { "id": 143, "category": "common", "message": "Type Target" },
+    { "id": 144, "category": "common", "message": "Base Url" },
+    { "id": 145, "category": "common", "message": "Resident User Name" },
+    { "id": 146, "category": "common", "message": "Payer Name" },
+    { "id": 147, "category": "common", "message": "Type Payment" },
+    { "id": 148, "category": "common", "message": "Total Price" },
+    { "id": 149, "category": "common", "message": "Service Provider" },
+    { "id": 150, "category": "common", "message": "Service Payment Fee ID" },
+    { "id": 151, "category": "common", "message": "Service Map Management ID" },
+    { "id": 152, "category": "common", "message": "Price" },
+    { "id": 153, "category": "common", "message": "Fee Of Month" },
+    { "id": 154, "category": "common", "message": "Service ID" },
+    { "id": 155, "category": "common", "message": "Unit" },
+    { "id": 156, "category": "common", "message": "Day" },
+    { "id": 157, "category": "common", "message": "Month Cycle" },
+    { "id": 158, "category": "common", "message": "Offset Day" },
+    { "id": 159, "category": "common", "message": "Service Name" },
+    { "id": 160, "category": "common", "message": "Service Base Url" },
+    { "id": 161, "category": "common", "message": "Service Description" },
+    { "id": 162, "category": "common", "message": "Service Icon Name" },
+    { "id": 163, "category": "common", "message": "Service Provider ID" },
+    { "id": 164, "category": "common", "message": "Day Expired" },
+    { "id": 165, "category": "common", "message": "Service Bill Id" },
+    { "id": 166, "category": "common", "message": "Service Bill Code" },
+    { "id": 167, "category": "common", "message": "Cash Instruction" },
+    { "id": 168, "category": "common", "message": "Transfer Instruction" },
+    { "id": 169, "category": "common", "message": "Bank Name" },
+    { "id": 170, "category": "common", "message": "Bank Number" },
+    { "id": 171, "category": "common", "message": "Bank Holders" },
+    { "id": 172, "category": "common", "message": "Hours Open" },
+    { "id": 173, "category": "common", "message": "Hours Close" },
+    { "id": 174, "category": "common", "message": "From Level" },
+    { "id": 175, "category": "common", "message": "To Level" },
+    { "id": 176, "category": "common", "message": "Permission" },
+    { "id": 177, "category": "frontend", "message": "Token Verify Expired." },
+    { "id": 178, "category": "frontend", "message": "Token Verify Not Exist." },
+    {
+      "id": 179,
+      "category": "frontend",
+      "message": "Incorrect email or password."
+    },
+    { "id": 180, "category": "frontend", "message": "Incorrect captcha code." },
+    {
+      "id": 181,
+      "category": "frontend",
+      "message": "Residents were in the apartment"
+    },
+    {
+      "id": 182,
+      "category": "frontend",
+      "message": "Category contains post, not deleted"
+    },
+    {
+      "id": 183,
+      "category": "frontend",
+      "message": "Provider contains service, not deleted"
+    },
+    { "id": 184, "category": "common", "message": "Is Event" },
+    { "id": 185, "category": "common", "message": "Is Send Event" },
+    { "id": 186, "category": "common", "message": "Post Category ID" },
+    {
+      "id": 187,
+      "category": "frontend",
+      "message": "The apartment has no head of household"
+    },
+    { "id": 188, "category": "resident", "message": "Rate success" },
+    { "id": 189, "category": "common", "message": "Is Draft" },
+    { "id": 190, "category": "common", "message": "Number" },
+    { "id": 191, "category": "common", "message": "Rate" },
+    {
+      "id": 192,
+      "category": "frontend",
+      "message": "The area has floors so it cannot be deleted"
+    },
+    {
+      "id": 193,
+      "category": "frontend",
+      "message": "The floor is flat so it cannot be deleted"
+    },
+    { "id": 194, "category": "common", "message": "Order" },
+    { "id": 195, "category": "frontend", "message": "Success" },
+    {
+      "id": 196,
+      "category": "frontend",
+      "message": "There is no user with this email address."
+    },
+    {
+      "id": 197,
+      "category": "frontend",
+      "message": "end index does not match"
+    },
+    { "id": 198, "category": "common", "message": "Help Category ID" },
+    { "id": 199, "category": "common", "message": "Start Index" },
+    { "id": 200, "category": "common", "message": "End Index" },
+    { "id": 201, "category": "common", "message": "Total Index" },
+    { "id": 202, "category": "common", "message": "Total Money" },
+    { "id": 203, "category": "common", "message": "Lock Time" },
+    { "id": 204, "category": "common", "message": "Is Created Fee" },
+    { "id": 205, "category": "common", "message": "Send Event At" },
+    {
+      "id": 206,
+      "category": "frontend",
+      "message": "The apartment has not been configured fee"
+    },
+    { "id": 207, "category": "frontend", "message": "Delete Error" },
+    {
+      "id": 208,
+      "category": "frontend",
+      "message": "create service payment fee error"
+    },
+    { "id": 209, "category": "frontend", "message": "Short name exist" },
+    { "id": 210, "category": "frontend", "message": "Lock time is incorrect" },
+    { "id": 211, "category": "frontend", "message": "Import Error" },
+    {
+      "id": 212,
+      "category": "frontend",
+      "message": "Auto Create Fee Not Import"
+    },
+    {
+      "id": 214,
+      "category": "frontend",
+      "message": "Over the limit allowed to be sent in the month"
+    },
+    { "id": 215, "category": "frontend", "message": "Status incorrect" },
+    { "id": 216, "category": "frontend", "message": "Incorrect status" },
+    { "id": 217, "category": "frontend", "message": "Cancel Success" },
+    { "id": 218, "category": "frontend", "message": "ServiceWaterInfo Exist" },
+    {
+      "id": 219,
+      "category": "frontend",
+      "message": "Service Water Info Using, Not Update End Date"
+    },
+    {
+      "id": 220,
+      "category": "frontend",
+      "message": "Service Water Info Using, Not Delete"
+    },
+    {
+      "id": 221,
+      "category": "frontend",
+      "message": "create payment config error"
+    },
+    {
+      "id": 222,
+      "category": "frontend",
+      "message": "Generate Number Bill Error"
+    },
+    {
+      "id": 223,
+      "category": "frontend",
+      "message": "The next month's fee has not been deleted"
+    },
+    {
+      "id": 224,
+      "category": "frontend",
+      "message": "ServiceElectricInfo Exist"
+    },
+    {
+      "id": 225,
+      "category": "frontend",
+      "message": "ServiceBuildingInfo Exist"
+    },
+    {
+      "id": 226,
+      "category": "frontend",
+      "message": "Service Building Info Using, Not Update End Date"
+    },
+    {
+      "id": 227,
+      "category": "frontend",
+      "message": "Service Building Info Using, Not Delete"
+    },
+    {
+      "id": 228,
+      "category": "frontend",
+      "message": "service parking level empty"
+    },
+    {
+      "id": 229,
+      "category": "frontend",
+      "message": "Service Parking Level Using, Not Delete"
+    },
+    {
+      "id": 230,
+      "category": "frontend",
+      "message": "ServiceManagementVehicle Exist"
+    },
+    {
+      "id": 231,
+      "category": "frontend",
+      "message": "Service Management Vehicle Using, Not Update End Date"
+    },
+    {
+      "id": 232,
+      "category": "frontend",
+      "message": "Service Management Vehicle Using, Not Delete"
+    },
+    { "id": 233, "category": "frontend", "message": "Cancel Error" },
+    {
+      "id": 234,
+      "category": "frontend",
+      "message": "Apartment contains ServicePaymentFee, not deleted"
+    },
+    { "id": 235, "category": "frontend", "message": "Update Success" },
+    {
+      "id": 236,
+      "category": "resident",
+      "message": "Delete PaymentGenCode Error"
+    },
+    { "id": 237, "category": "resident", "message": "Delete Code Success" },
+    { "id": 238, "category": "action-log", "message": "request" },
+    { "id": 239, "category": "action-log", "message": "change-status" },
+    {
+      "id": 240,
+      "category": "action-log",
+      "message": "add-or-remove-auth-group"
+    },
+    { "id": 241, "category": "action-log", "message": "request-category" },
+    { "id": 242, "category": "action-log", "message": "create" },
+    { "id": 243, "category": "action-log", "message": "update" },
+    { "id": 244, "category": "action-log", "message": "announcement-campaign" },
+    { "id": 245, "category": "action-log", "message": "active-status" },
+    { "id": 246, "category": "action-log", "message": "announcement-category" },
+    { "id": 247, "category": "action-log", "message": "service" },
+    {
+      "id": 248,
+      "category": "action-log",
+      "message": "service-building-config"
+    },
+    { "id": 249, "category": "action-log", "message": "service-building-fee" },
+    { "id": 250, "category": "action-log", "message": "import" },
+    { "id": 251, "category": "action-log", "message": "service-building-info" },
+    {
+      "id": 252,
+      "category": "action-log",
+      "message": "service-electric-config"
+    },
+    { "id": 253, "category": "action-log", "message": "service-electric-fee" },
+    { "id": 254, "category": "action-log", "message": "service-electric-info" },
+    {
+      "id": 255,
+      "category": "action-log",
+      "message": "service-electric-level"
+    },
+    {
+      "id": 256,
+      "category": "action-log",
+      "message": "service-management-vehicle"
+    },
+    {
+      "id": 257,
+      "category": "action-log",
+      "message": "service-vehicle-config"
+    },
+    { "id": 258, "category": "action-log", "message": "service-parking-fee" },
+    { "id": 259, "category": "action-log", "message": "service-parking-level" },
+    { "id": 260, "category": "action-log", "message": "service-water-config" },
+    { "id": 261, "category": "action-log", "message": "service-water-fee" },
+    { "id": 262, "category": "action-log", "message": "service-water-info" },
+    { "id": 263, "category": "action-log", "message": "service-water-level" },
+    { "id": 264, "category": "action-log", "message": "service-bill" },
+    { "id": 265, "category": "action-log", "message": "delete" },
+    { "id": 266, "category": "action-log", "message": "block" },
+    { "id": 267, "category": "action-log", "message": "cancel" },
+    { "id": 268, "category": "action-log", "message": "print" },
+    { "id": 269, "category": "action-log", "message": "resident-user" },
+    { "id": 270, "category": "action-log", "message": "apartment" },
+    { "id": 271, "category": "action-log", "message": "add-resident-user" },
+    { "id": 272, "category": "action-log", "message": "remove-resident-user" },
+    { "id": 273, "category": "action-log", "message": "building-area" },
+    { "id": 274, "category": "action-log", "message": "rbac" },
+    { "id": 275, "category": "action-log", "message": "create-auth-group" },
+    { "id": 276, "category": "action-log", "message": "update-auth-group" },
+    { "id": 277, "category": "action-log", "message": "auth-group-delete" },
+    { "id": 278, "category": "action-log", "message": "create-auth-item-web" },
+    { "id": 279, "category": "action-log", "message": "auth" },
+    { "id": 280, "category": "action-log", "message": "login" },
+    { "id": 281, "category": "action-log", "message": "logout" },
+    { "id": 282, "category": "action-log", "message": "forgot-password" },
+    { "id": 283, "category": "action-log", "message": "reset-password" },
+    { "id": 284, "category": "common", "message": "Json Desc" },
+    { "id": 285, "category": "common", "message": "Total Amount" },
+    { "id": 286, "category": "common", "message": "Txh Name" },
+    { "id": 287, "category": "common", "message": "Txt Email" },
+    { "id": 288, "category": "common", "message": "Txt Phone" },
+    { "id": 289, "category": "common", "message": "Content Email" },
+    { "id": 290, "category": "common", "message": "Content App" },
+    { "id": 291, "category": "common", "message": "Content Sms" },
+    { "id": 292, "category": "common", "message": "Content Pdf" },
+    { "id": 293, "category": "common", "message": "Handover" },
+    { "id": 294, "category": "common", "message": "Date Received" },
+    { "id": 295, "category": "common", "message": "Total Members" },
+    { "id": 296, "category": "common", "message": "Short Name" },
+    { "id": 297, "category": "common", "message": "Reminder Debt" },
+    { "id": 298, "category": "common", "message": "Apartment Short Name" },
+    { "id": 299, "category": "common", "message": "Auto Create Fee" },
+    { "id": 300, "category": "common", "message": "Gate" },
+    { "id": 301, "category": "common", "message": "Receiver Account" },
+    { "id": 302, "category": "common", "message": "Merchant ID" },
+    { "id": 303, "category": "common", "message": "Merchant Pass" },
+    { "id": 304, "category": "common", "message": "Checkout Url" },
+    { "id": 305, "category": "common", "message": "Checkout Url Old" },
+    { "id": 306, "category": "common", "message": "Return Url" },
+    { "id": 307, "category": "common", "message": "Cancel Url" },
+    { "id": 308, "category": "common", "message": "Notify Url" },
+    { "id": 309, "category": "common", "message": "Return Web Url" },
+    { "id": 310, "category": "common", "message": "Note" },
+    { "id": 311, "category": "common", "message": "Service Provider Id" },
+    { "id": 312, "category": "common", "message": "Start Time" },
+    { "id": 313, "category": "common", "message": "End Time" },
+    { "id": 314, "category": "common", "message": "Money Collected" },
+    { "id": 315, "category": "common", "message": "More Money Collecte" },
+    { "id": 316, "category": "common", "message": "Approved By Id" },
+    { "id": 317, "category": "common", "message": "Management User Name" },
+    { "id": 318, "category": "common", "message": "Payment Date" },
+    { "id": 319, "category": "common", "message": "Execution Date" },
+    {
+      "id": 320,
+      "category": "common",
+      "message": "Setting Group Receives Notices Financial"
+    },
+    { "id": 321, "category": "common", "message": "Limit Sms" },
+    { "id": 322, "category": "common", "message": "Limit Email" },
+    { "id": 323, "category": "common", "message": "Limit Notify" },
+    { "id": 324, "category": "common", "message": "Sms Price" },
+    { "id": 325, "category": "common", "message": "Service Payment Fee Id" },
+    { "id": 326, "category": "common", "message": "Early Debt" },
+    { "id": 327, "category": "common", "message": "End Debt" },
+    { "id": 328, "category": "common", "message": "Receivables" },
+    { "id": 329, "category": "common", "message": "Collected" },
+    { "id": 330, "category": "common", "message": "Month" },
+    { "id": 331, "category": "common", "message": "Using Bank Cluster" },
+    { "id": 332, "category": "common", "message": "Style" },
+    { "id": 333, "category": "common", "message": "Sub Content" },
+    { "id": 334, "category": "common", "message": "Payment Gen Code ID" },
+    { "id": 335, "category": "common", "message": "Amount" },
+    { "id": 336, "category": "common", "message": "Service Payment Fee Ids" },
+    { "id": 337, "category": "common", "message": "Payment Order Id" },
+    { "id": 338, "category": "common", "message": "Is Auto" },
+    { "id": 339, "category": "common", "message": "Resident User Id" },
+    { "id": 340, "category": "common", "message": "Start Date" },
+    { "id": 341, "category": "common", "message": "End Date" },
+    { "id": 342, "category": "common", "message": "Tmp End Date" },
+    { "id": 343, "category": "common", "message": "Count Month" },
+    {
+      "id": 344,
+      "category": "common",
+      "message": "Service Building Config ID"
+    },
+    { "id": 345, "category": "common", "message": "service Payment Fee Id" },
+    { "id": 346, "category": "common", "message": "Announcement Item Send Id" },
+    { "id": 347, "category": "common", "message": "Year" },
+    { "id": 348, "category": "common", "message": "Index Number" },
+    { "id": 349, "category": "common", "message": "Service Bill Number" },
+    { "id": 350, "category": "common", "message": "Service Bill Type Payment" },
+    { "id": 351, "category": "common", "message": "Total Email Send" },
+    { "id": 352, "category": "common", "message": "Total Email Open" },
+    { "id": 353, "category": "common", "message": "Total Sms Send" },
+    {
+      "id": 354,
+      "category": "common",
+      "message": "Total Apartment Send Success"
+    },
+    { "id": 355, "category": "common", "message": "Total Email Send Success" },
+    { "id": 356, "category": "common", "message": "Total Sms Send Success" },
+    { "id": 357, "category": "common", "message": "Total App Send" },
+    { "id": 358, "category": "common", "message": "Total App Open" },
+    { "id": 359, "category": "common", "message": "Total App Success" },
+    { "id": 360, "category": "common", "message": "Service Parking Level ID" },
+    { "id": 361, "category": "common", "message": "Payment Order ID" },
+    {
+      "id": 362,
+      "category": "common",
+      "message": "Service Management Vehicle ID"
+    },
+    {
+      "id": 363,
+      "category": "frontend",
+      "message": "Apartment Map Resident User Empty"
+    },
+    { "id": 364, "category": "frontend", "message": "Payment Gen Code Empty" },
+    {
+      "id": 365,
+      "category": "frontend",
+      "message": "Not is auto create, not delete"
+    },
+    {
+      "id": 366,
+      "category": "frontend",
+      "message": "Delete PaymentGenCode Error"
+    },
+    { "id": 367, "category": "frontend", "message": "Delete Code Success" },
+    { "id": 368, "category": "frontend", "message": "Invalid total money" },
+    {
+      "id": 369,
+      "category": "frontend",
+      "message": "apartment map resident empty: "
+    },
+    { "id": 370, "category": "frontend", "message": "No head of household" },
+    { "id": 371, "category": "frontend", "message": "Invalid data time" },
+    {
+      "id": 372,
+      "category": "frontend",
+      "message": "ServiceUtilityConfig Not Exist"
+    },
+    { "id": 373, "category": "frontend", "message": "Invalid Apartment" },
+    {
+      "id": 374,
+      "category": "frontend",
+      "message": "Invalid Service Utility Config"
+    },
+    { "id": 375, "category": "frontend", "message": "limit book apartment" },
+    {
+      "id": 376,
+      "category": "frontend",
+      "message": "Invalid Start Time Or End Time"
+    },
+    { "id": 377, "category": "frontend", "message": "Not Enough Slot" },
+    { "id": 378, "category": "frontend", "message": "Delete error" },
+    { "id": 379, "category": "frontend", "message": "Cancel error" },
+    { "id": 380, "category": "frontend", "message": "timeout cancel book" },
+    { "id": 381, "category": "frontend", "message": "Error" },
+    { "id": 382, "category": "frontend", "message": "Resident User Empty" },
+    {
+      "id": 383,
+      "category": "frontend",
+      "message": "ServiceUtilityFree Not Exist"
+    },
+    {
+      "id": 384,
+      "category": "frontend",
+      "message": "Service Utility Booking Exist"
+    },
+    {
+      "id": 385,
+      "category": "frontend",
+      "message": "Service Utility Free Using, Not Delete"
+    },
+    {
+      "id": 386,
+      "category": "resident",
+      "message": "Residents are not in the apartment"
+    },
+    {
+      "id": 387,
+      "category": "resident",
+      "message": "Residents were in the apartment"
+    },
+    {
+      "id": 388,
+      "category": "resident",
+      "message": "Invalid Service Utility Config"
+    },
+    { "id": 389, "category": "resident", "message": "limit book apartment" },
+    {
+      "id": 390,
+      "category": "resident",
+      "message": "Invalid Start Time Or End Time"
+    },
+    { "id": 391, "category": "resident", "message": "Not Enough Slot" },
+    { "id": 392, "category": "resident", "message": "Delete error" },
+    { "id": 393, "category": "resident", "message": "Cancel error" },
+    { "id": 394, "category": "resident", "message": "timeout cancel book" },
+    { "id": 395, "category": "resident", "message": "Success" },
+    {
+      "id": 396,
+      "category": "resident",
+      "message": "Số điện thoại không hợp lệ"
+    },
+    {
+      "id": 397,
+      "category": "resident",
+      "message": "Số điện thoại chưa được khai báo căn hộ"
+    },
+    {
+      "id": 398,
+      "category": "resident",
+      "message": "Tạo mã OTP không thành công"
+    },
+    {
+      "id": 399,
+      "category": "resident",
+      "message": "Mã OTP đã được gửi vế số điện thoại, vui lòng nhập mã OTP để đăng nhập vào ứng dụng!"
+    },
+    { "id": 400, "category": "resident", "message": "Mã OTP không hợp lệ" },
+    { "id": 401, "category": "resident", "message": "Mã OTP đã hết hạn" },
+    { "id": 402, "category": "resident", "message": "System Busy" },
+    { "id": 403, "category": "common", "message": "Pay Gate" },
+    { "id": 404, "category": "common", "message": "Security Mode" },
+    { "id": 405, "category": "common", "message": "Email Account Push" },
+    { "id": 406, "category": "common", "message": "Email Password Push" },
+    { "id": 407, "category": "common", "message": "Sms Brandname Push" },
+    { "id": 408, "category": "common", "message": "Sms Account Push" },
+    { "id": 409, "category": "common", "message": "Sms Password Push" },
+    { "id": 410, "category": "common", "message": "Service Bill Template" },
+    { "id": 411, "category": "common", "message": "Is Sync" },
+    { "id": 412, "category": "common", "message": "Channel" },
+    { "id": 413, "category": "common", "message": "Action Create" },
+    { "id": 414, "category": "common", "message": "Action Update" },
+    { "id": 415, "category": "common", "message": "Action Cancel" },
+    { "id": 416, "category": "common", "message": "Action Delete" },
+    { "id": 417, "category": "common", "message": "Action Approved" },
+    { "id": 418, "category": "common", "message": "Action Comment" },
+    { "id": 419, "category": "common", "message": "Action Rate" },
+    { "id": 420, "category": "common", "message": "Service Utility Free ID" },
+    { "id": 421, "category": "common", "message": "Booking Type" },
+    { "id": 422, "category": "common", "message": "Total Slot" },
+    { "id": 423, "category": "common", "message": "Merchant Name" },
+    { "id": 424, "category": "common", "message": "Partner Code" },
+    { "id": 425, "category": "common", "message": "Access Key" },
+    { "id": 426, "category": "common", "message": "Secret Key" },
+    { "id": 427, "category": "common", "message": "Puri Trak ID" },
+    { "id": 428, "category": "common", "message": "Aqi" },
+    { "id": 429, "category": "common", "message": "H" },
+    { "id": 430, "category": "common", "message": "T" },
+    { "id": 431, "category": "common", "message": "Time" },
+    { "id": 432, "category": "common", "message": "Device ID" },
+    { "id": 433, "category": "common", "message": "Lat" },
+    { "id": 434, "category": "common", "message": "Long" },
+    { "id": 435, "category": "common", "message": "Hours" },
+    { "id": 436, "category": "common", "message": "Service Utility Config ID" },
+    { "id": 437, "category": "common", "message": "Update success" },
+    { "id": 438, "category": "common", "message": "Send Email" },
+    { "id": 439, "category": "common", "message": "Send Sms" },
+    { "id": 440, "category": "common", "message": "Send Notify App" },
+    { "id": 441, "category": "common", "message": "Percent" },
+    { "id": 442, "category": "common", "message": "Price Hourly" },
+    { "id": 443, "category": "common", "message": "Price Adult" },
+    { "id": 444, "category": "common", "message": "Price Child" },
+    { "id": 445, "category": "common", "message": "Service Booking ID" },
+    { "id": 446, "category": "common", "message": "Building Cluster Id" },
+    { "id": 447, "category": "common", "message": "Apartment Id" },
+    {
+      "id": 448,
+      "category": "common",
+      "message": "Service Management Vehicle Id"
+    },
+    { "id": 449, "category": "common", "message": "Serial" },
+    { "id": 450, "category": "common", "message": "Vehicle Type" },
+    { "id": 451, "category": "common", "message": "Card Type" },
+    { "id": 452, "category": "common", "message": "Ticket Type" },
+    { "id": 453, "category": "common", "message": "Datetime In" },
+    { "id": 454, "category": "common", "message": "Plate In" },
+    { "id": 455, "category": "common", "message": "Image1 In" },
+    { "id": 456, "category": "common", "message": "Image2 In" },
+    { "id": 457, "category": "common", "message": "Datetime Out" },
+    { "id": 458, "category": "common", "message": "Plate Out" },
+    { "id": 459, "category": "common", "message": "Image1 Out" },
+    { "id": 460, "category": "common", "message": "Image2 Out" },
+    { "id": 461, "category": "common", "message": "Book Time" },
+    { "id": 462, "category": "common", "message": "Total Adult" },
+    { "id": 463, "category": "common", "message": "Total Child" },
+    { "id": 464, "category": "common", "message": "Regulation" },
+    { "id": 465, "category": "common", "message": "Timeout Pay Request" },
+    { "id": 466, "category": "common", "message": "Timeout Cancel Book" },
+    { "id": 467, "category": "common", "message": "Limit Book Apartment" },
+    { "id": 468, "category": "common", "message": "Card Management ID" },
+    { "id": 469, "category": "common", "message": "Service Management ID" },
+    { "id": 470, "category": "common", "message": "Expiry Time" },
+    { "id": 471, "category": "common", "message": "Set Water Level" },
+    { "id": 472, "category": "common", "message": "Time Event" },
+    { "id": 473, "category": "common", "message": "Image Name" },
+    { "id": 474, "category": "common", "message": "Image Uri" },
+    { "id": 475, "category": "common", "message": "Phone" },
+    {
+      "id": 476,
+      "category": "frontend",
+      "message": "Update PaymentGenCode Error"
+    },
+    {
+      "id": 477,
+      "category": "frontend",
+      "message": "Thời gian chốt lớn hơn thời gian hiện tại"
+    },
+    {
+      "id": 478,
+      "category": "frontend",
+      "message": "Tổng tiền phí không phù hợp: "
+    },
+    {
+      "id": 479,
+      "category": "frontend",
+      "message": "Thời gian chố lớn hơn thời gian hiện tại"
+    },
+    {
+      "id": 480,
+      "category": "frontend",
+      "message": "Lock time is bigger current time"
+    },
+    { "id": 481, "category": "frontend", "message": "Tổng phí không phù hợp" },
+    {
+      "id": 482,
+      "category": "frontend",
+      "message": "Service Status Paid, Not Update"
+    },
+    {
+      "id": 483,
+      "category": "frontend",
+      "message": "Tổng tiền phí không phù hơp"
+    },
+    {
+      "id": 484,
+      "category": "frontend",
+      "message": "Tổng tiền phí không phù hợp"
+    },
+    { "id": 485, "category": "common", "message": "Rule Name" },
+    { "id": 486, "category": "common", "message": "Tag" },
+    { "id": 487, "category": "common", "message": "Data" },
+    { "id": 488, "category": "common", "message": "Data Web" },
+    { "id": 489, "category": "common", "message": "Data Role" },
+    { "id": 490, "category": "common", "message": "Building Area Id" },
+    {
+      "id": 491,
+      "category": "resident",
+      "message": "Update PaymentGenCode Error"
+    },
+    {
+      "id": 492,
+      "category": "frontend",
+      "message": "Phí của tháng không phù hợp"
+    },
+    { "id": 493, "category": "frontend", "message": "invalid capacity" },
+    {
+      "id": 494,
+      "category": "frontend",
+      "message": "There is a fee in the request for payment, a payment need to be made"
+    },
+    {
+      "id": 495,
+      "category": "frontend",
+      "message": "Type contains Apartment, not deleted"
+    },
+    { "id": 496, "category": "frontend", "message": "Update Error" },
+    { "id": 497, "category": "resident", "message": "Update Success" },
+    { "id": 498, "category": "common", "message": "Form Type" },
+    { "id": 499, "category": "common", "message": "Start Age" },
+    { "id": 500, "category": "common", "message": "End Age" },
+    { "id": 501, "category": "common", "message": "Total Foreigner" },
+    { "id": 502, "category": "common", "message": "Total Vietnam" },
+    { "id": 503, "category": "common", "message": "Link Whether" },
+    { "id": 504, "category": "common", "message": "Apartment Not Send Ids" },
+    { "id": 505, "category": "common", "message": "Add Phone Send" },
+    { "id": 506, "category": "common", "message": "Add Email Send" },
+    { "id": 507, "category": "frontend", "message": "Invalid Data" },
+    {
+      "id": 508,
+      "category": "frontend",
+      "message": "Đặt chỗ chưa được duyệt, không thể tạo phí phát sinh"
+    },
+    { "id": 509, "category": "common", "message": "Deposit Money" },
+    { "id": 510, "category": "common", "message": "For Type" },
+    { "id": 511, "category": "common", "message": "Service Bill Invoice Id" },
+    {
+      "id": 512,
+      "category": "common",
+      "message": "Service Bill Invoice Template"
+    },
+    { "id": 515, "category": "frontend", "message": "Invalid email" },
+    {
+      "id": 516,
+      "category": "frontend",
+      "message": "Chưa khai báo chỉ số sử dụng ban đầu"
+    },
+    {
+      "id": 517,
+      "category": "frontend",
+      "message": "Thời gia chốt không phù hợp"
+    },
+    {
+      "id": 518,
+      "category": "frontend",
+      "message": "Căn hộ còn phí chưa duyệt"
+    },
+    {
+      "id": 519,
+      "category": "frontend",
+      "message": "Chỉ số sử dụng không đúng"
+    },
+    {
+      "id": 520,
+      "category": "frontend",
+      "message": "Tạo phí dịch vụ không thành công"
+    },
+    {
+      "id": 521,
+      "category": "frontend",
+      "message": "Dịch vụ chưa được cấu hình"
+    },
+    {
+      "id": 522,
+      "category": "frontend",
+      "message": "Chưa khai báo sử dụng dịch vụ"
+    },
+    {
+      "id": 523,
+      "category": "frontend",
+      "message": "Thời gian bắt đầu sử dụng không đúng"
+    },
+    { "id": 524, "category": "frontend", "message": "Chỉ số chốt không đúng" },
+    {
+      "id": 525,
+      "category": "frontend",
+      "message": "Chỉ số sử dụng ban đầu đã được khai báo"
+    },
+    {
+      "id": 526,
+      "category": "frontend",
+      "message": "Thời gian chốt không phù hợp"
+    },
+    {
+      "id": 527,
+      "category": "frontend",
+      "message": "Đang có phí nước chưa được duyệt"
+    },
+    {
+      "id": 528,
+      "category": "frontend",
+      "message": "Chỉ số sử dụng không phù hợp"
+    },
+    {
+      "id": 529,
+      "category": "frontend",
+      "message": "Phiếu thu này đang chứa phí có trong phiếu chi, không được hủy"
+    },
+    { "id": 530, "category": "frontend", "message": "Số tiền không đúng" },
+    {
+      "id": 531,
+      "category": "frontend",
+      "message": "Tạo nợ cũ không thành công"
+    },
+    {
+      "id": 532,
+      "category": "frontend",
+      "message": "Phí đã thanh toán một phần, không được sửa"
+    },
+    {
+      "id": 533,
+      "category": "frontend",
+      "message": "Phí đặt dịch vụ tiện ích không được xóa"
+    },
+    { "id": 534, "category": "frontend", "message": "Chưa cấu hình dịch vụ" },
+    {
+      "id": 535,
+      "category": "frontend",
+      "message": "Căn hộ đã được khai báo sử dụng"
+    },
+    {
+      "id": 536,
+      "category": "frontend",
+      "message": "Tạo khai báo sử dụng không thành công"
+    },
+    {
+      "id": 537,
+      "category": "frontend",
+      "message": "Khai báo chỉ số sử dụng không thành công"
+    },
+    { "id": 538, "category": "frontend", "message": "Xe chưa được khai báo" },
+    {
+      "id": 539,
+      "category": "frontend",
+      "message": "Khai báo xe không thành công"
+    },
+    {
+      "id": 540,
+      "category": "frontend",
+      "message": "Tạo phí xe không thành công"
+    },
+    {
+      "id": 541,
+      "category": "frontend",
+      "message": "Tồn tại phí sau thời gian gửi mới"
+    },
+    { "id": 542, "category": "frontend", "message": "Cancel Date Invalid" },
+    { "id": 543, "category": "frontend", "message": "Active Success" },
+    {
+      "id": 544,
+      "category": "frontend",
+      "message": "Tồn tại phí đã duyệt sau thời gian hủy"
+    },
+    {
+      "id": 546,
+      "category": "frontend",
+      "message": "Tạo phí không thành công"
+    },
+    {
+      "id": 547,
+      "category": "frontend",
+      "message": "Phí sử dụng ban đầu đã được khai báo"
+    },
+    {
+      "id": 548,
+      "category": "frontend",
+      "message": "Khai báo phí sử dụng ban đầu không thành công"
+    },
+    {
+      "id": 549,
+      "category": "frontend",
+      "message": "Số điện thoại không đúng: "
+    },
+    { "id": 550, "category": "frontend", "message": "Căn hộ không tồn tại: " },
+    {
+      "id": 551,
+      "category": "frontend",
+      "message": "Thêm cư dân không thành công: "
+    },
+    {
+      "id": 552,
+      "category": "frontend",
+      "message": "Cư dân đã được thêm vào căn hộ: "
+    },
+    {
+      "id": 553,
+      "category": "frontend",
+      "message": "Thêm cư dân vào căn hộ không thành công: "
+    },
+    {
+      "id": 554,
+      "category": "frontend",
+      "message": "Chưa cấu hình loại phí xe"
+    },
+    {
+      "id": 555,
+      "category": "frontend",
+      "message": "Xe đã được khai báo sử dụng"
+    },
+    { "id": 556, "category": "frontend", "message": "Căn hộ đã tồn tại: " },
+    {
+      "id": 557,
+      "category": "frontend",
+      "message": "Diện tích căn hộ không phù hợp"
+    },
+    {
+      "id": 558,
+      "category": "frontend",
+      "message": "Thêm căn hộ không thành công: "
+    },
+    {
+      "id": 559,
+      "category": "frontend",
+      "message": "Tầng chứa căn hộ không phù hợp: "
+    },
+    {
+      "id": 560,
+      "category": "frontend",
+      "message": "Cần khai báo thông tin mặt bằng trước"
+    },
+    {
+      "id": 561,
+      "category": "resident",
+      "message": "Nội dung không được chứa ký tự đặc biệt!"
+    },
+    { "id": 562, "category": "resident", "message": "Giá trị số quá lớn!" },
+    { "id": 563, "category": "common", "message": "Image" },
+    { "id": 564, "category": "common", "message": "Message Request Default" },
+    { "id": 565, "category": "common", "message": "Cancel Date" },
+    {
+      "id": 567,
+      "category": "frontend",
+      "message": "Căn hộ chưa có chủ hộ, không được đặt chỗ"
+    },
+    {
+      "id": 568,
+      "category": "frontend",
+      "message": "Căn hộ không tồn tại hoặc chưa có chủ hộ: "
+    },
+    {
+      "id": 569,
+      "category": "frontend",
+      "message": "Thời gian sử dụng không đúng"
+    },
+    {
+      "id": 570,
+      "category": "resident",
+      "message": "Căn hộ chưa có chủ hộ, không được đặt chỗ"
+    },
+    { "id": 571, "category": "common", "message": "Apartment Name" },
+    { "id": 572, "category": "common", "message": "Apartment Parent Path" },
+    { "id": 573, "category": "common", "message": "Time In" },
+    { "id": 574, "category": "common", "message": "Time Out" },
+    {
+      "id": 575,
+      "category": "frontend",
+      "message": "Phí của tháng không hợp lý"
+    },
+    {
+      "id": 576,
+      "category": "frontend",
+      "message": "căn hộ không tồn tại hoặc chưa có chủ hộ: "
+    },
+    {
+      "id": 577,
+      "category": "frontend",
+      "message": "Xe đã được kích hoạt trong căn hộ khác"
+    },
+    {
+      "id": 578,
+      "category": "frontend",
+      "message": "Ngày bắt đầu hoặc ngày kết thúc không hợp lệ"
+    },
+    {
+      "id": 579,
+      "category": "frontend",
+      "message": "Căn hộ không tồn tại hoặc chưa có chủ hộ"
+    },
+    {
+      "id": 580,
+      "category": "frontend",
+      "message": "Số điện thoại gửi thêm không đúng định dạng"
+    },
+    {
+      "id": 581,
+      "category": "frontend",
+      "message": "Email gửi thêm không đúng định dạng"
+    },
+    {
+      "id": 582,
+      "category": "frontend",
+      "message": "Dữ liệu dịch vụ thêm vào thẻ chưa đúng"
+    },
+    {
+      "id": 583,
+      "category": "resident",
+      "message": "Dữ liệu dịch vụ thêm vào thẻ chưa đúng"
+    },
+    { "id": 584, "category": "common", "message": "Is Paid" },
+    { "id": 585, "category": "common", "message": "Resident Name Search" },
+    { "id": 586, "category": "common", "message": "Apartment Ids" },
+    {
+      "id": 587,
+      "category": "frontend",
+      "message": "Không hủy được phí gửi xe"
+    },
+    { "id": 790, "category": "frontend", "message": "Căn hộ đã tồn tại" },
+    {
+      "id": 791,
+      "category": "frontend",
+      "message": "Cư dân đã được thêm vào căn hộ rồi"
+    },
+    { "id": 792, "category": "frontend", "message": "Số thẻ đã tồn tại" },
+    {
+      "id": 793,
+      "category": "frontend",
+      "message": "Chưa chọn căn hộ cần tạo phiếu"
+    },
+    {
+      "id": 794,
+      "category": "frontend",
+      "message": "Chưa chọn phí cần tạo phiếu"
+    },
+    {
+      "id": 795,
+      "category": "frontend",
+      "message": "Mã xác nhận thanh toán không hợp lệ"
+    },
+    {
+      "id": 796,
+      "category": "frontend",
+      "message": "Bạn phải thanh toán đầy đủ số tiền từ xác nhận thanh toán"
+    },
+    {
+      "id": 797,
+      "category": "frontend",
+      "message": "Tồn tại phí không thuộc mã xác nhận thanh toán"
+    },
+    {
+      "id": 798,
+      "category": "frontend",
+      "message": "Có phí tháng trước chưa được duyệt"
+    },
+    {
+      "id": 799,
+      "category": "frontend",
+      "message": "Dịch vụ đang ngừng cung cấp"
+    },
+    {
+      "id": 800,
+      "category": "frontend",
+      "message": "Có phí tháng sau chưa được xóa"
+    },
+    {
+      "id": 801,
+      "category": "frontend",
+      "message": "Ngày hủy không được nhỏ hơn ngày đã đóng phí"
+    },
+    {
+      "id": 802,
+      "category": "frontend",
+      "message": "Xe sẽ được hủy vào ngày: "
+    },
+    {
+      "id": 803,
+      "category": "frontend",
+      "message": "Xe không tồn tại hoặc chưa được kích hoạt"
+    },
+    {
+      "id": 804,
+      "category": "frontend",
+      "message": "Xe không phát sinh phí trong tháng này, hoặc đã hủy xe"
+    },
+    {
+      "id": 805,
+      "category": "frontend",
+      "message": "Thời gian bắt đầu nhỏ hơn thời gian mở của của dịch vụ"
+    },
+    {
+      "id": 806,
+      "category": "frontend",
+      "message": "Thời gian kết thúc lớn hơn thời gian đóng cửa của dịch vụ"
+    },
+    {
+      "id": 807,
+      "category": "frontend",
+      "message": "Khung giờ mở cửa không hợp lệ"
+    },
+    {
+      "id": 808,
+      "category": "frontend",
+      "message": "Dịch vụ đang tồn tại cấu hình thời gian đặt chỗ nhỏ hơn thời gian mở cửa"
+    },
+    {
+      "id": 809,
+      "category": "frontend",
+      "message": "Dịch vụ đang tồn tại cấu hình thời gian đặt chỗ lớn hơn thời gian đóng cửa"
+    },
+    { "id": 810, "category": "action-log", "message": "active" },
+    {
+      "id": 811,
+      "category": "resident",
+      "message": "Cư dân đã được thêm vào căn hộ rồi"
+    },
+    {
+      "id": 812,
+      "category": "frontend",
+      "message": "Bạn không có quyền truy cập chức năng này"
+    },
+    {
+      "id": 813,
+      "category": "frontend",
+      "message": "Chờ sau 5 phút cho lần nhắc nợ tiếp theo"
+    },
+    {
+      "id": 814,
+      "category": "resident",
+      "message": "Không còn phí để tạo thanh toán"
+    },
+    { "id": 815, "category": "resident", "message": "Dữ liệu không hợp lệ!" },
+    {
+      "id": 1022,
+      "category": "frontend",
+      "message": "Announcement Template Invalid"
+    },
+    {
+      "id": 1023,
+      "category": "frontend",
+      "message": "Nội dung không được chứa ký tự đặc biệt!"
+    },
+    { "id": 1024, "category": "frontend", "message": "Giá trị số quá lớn!" },
+    {
+      "id": 1025,
+      "category": "frontend",
+      "message": "Không hủy được phí chưa duyệt"
+    },
+    { "id": 1026, "category": "frontend", "message": "Dữ liệu không hợp lệ!" },
+    {
+      "id": 1027,
+      "category": "frontend",
+      "message": "Is being used, not deleted"
+    },
+    {
+      "id": 1028,
+      "category": "frontend",
+      "message": "Building Area Is being used, not deleted"
+    },
+    {
+      "id": 1029,
+      "category": "frontend",
+      "message": "Residents are not in the apartment"
+    },
+    {
+      "id": 1030,
+      "category": "frontend",
+      "message": "The apartment has a fee not yet approved"
+    },
+    {
+      "id": 1031,
+      "category": "frontend",
+      "message": "apartment map resident empty"
+    },
+    {
+      "id": 1032,
+      "category": "frontend",
+      "message": "service electric info empty"
+    },
+    { "id": 1033, "category": "frontend", "message": "start index error" },
+    {
+      "id": 1034,
+      "category": "frontend",
+      "message": "service electric fee error"
+    },
+    {
+      "id": 1035,
+      "category": "frontend",
+      "message": "service building config empty"
+    },
+    {
+      "id": 1036,
+      "category": "frontend",
+      "message": "service building info empty"
+    },
+    { "id": 1037, "category": "frontend", "message": "start time error" },
+    {
+      "id": 1038,
+      "category": "frontend",
+      "message": "create service building fee error"
+    },
+    {
+      "id": 1039,
+      "category": "frontend",
+      "message": "service water info empty"
+    },
+    {
+      "id": 1040,
+      "category": "frontend",
+      "message": "create service water fee error"
+    },
+    {
+      "id": 1041,
+      "category": "frontend",
+      "message": "service building cluster empty"
+    },
+    {
+      "id": 1042,
+      "category": "frontend",
+      "message": "service building info exits"
+    },
+    {
+      "id": 1043,
+      "category": "frontend",
+      "message": "create service building info error"
+    },
+    {
+      "id": 1044,
+      "category": "frontend",
+      "message": "Service electric info exits"
+    },
+    {
+      "id": 1045,
+      "category": "frontend",
+      "message": "create service electric info error"
+    },
+    {
+      "id": 1046,
+      "category": "frontend",
+      "message": "service management vehicle error"
+    },
+    {
+      "id": 1047,
+      "category": "frontend",
+      "message": "create service management vehicle error"
+    },
+    {
+      "id": 1048,
+      "category": "frontend",
+      "message": "create service parking fee error"
+    },
+    {
+      "id": 1049,
+      "category": "frontend",
+      "message": "service water info exits"
+    },
+    {
+      "id": 1050,
+      "category": "frontend",
+      "message": "create water info error"
+    },
+    {
+      "id": 1051,
+      "category": "frontend",
+      "message": "service mamagement vehicle exits"
+    },
+    {
+      "id": 1052,
+      "category": "frontend",
+      "message": "apartment create error: "
+    },
+    { "id": 1053, "category": "frontend", "message": "building area empty: " },
+    {
+      "id": 1054,
+      "category": "frontend",
+      "message": "Cần khai báo thông tin mặt  bằng trước"
+    },
+    {
+      "id": 1055,
+      "category": "frontend",
+      "message": "create service old debit fee error"
+    },
+    { "id": 1056, "category": "resident", "message": "Chờ sau 5 phút" },
+    {
+      "id": 1057,
+      "category": "backend",
+      "message": "Incorrect username or password."
+    },
+    {
+      "id": 1058,
+      "category": "backend",
+      "message": "You are locked out of failed login attempts more than {limit} times. Please try again in {exp}"
+    },
+    {
+      "id": 1059,
+      "category": "backend",
+      "message": "invalid information, password confirm and password not match "
+    },
+    {
+      "id": 1060,
+      "category": "backend",
+      "message": "There is no user with this email address."
+    },
+    { "id": 1061, "category": "backend", "message": "Create" },
+    { "id": 1062, "category": "backend", "message": "Update" },
+    { "id": 1063, "category": "backend", "message": "Create Payment Config" },
+    { "id": 1064, "category": "backend", "message": "Payment Configs" },
+    { "id": 1065, "category": "backend", "message": "Search" },
+    { "id": 1066, "category": "backend", "message": "Reset" },
+    {
+      "id": 1067,
+      "category": "backend",
+      "message": "Update Payment Config: {name}"
+    },
+    { "id": 1068, "category": "backend", "message": "Delete" },
+    {
+      "id": 1069,
+      "category": "backend",
+      "message": "Are you sure you want to delete this item?"
+    },
+    { "id": 1070, "category": "backend", "message": "Active" },
+    { "id": 1071, "category": "backend", "message": "InActive" },
+    { "id": 1072, "category": "backend", "message": "Password" },
+    {
+      "id": 1073,
+      "category": "backend",
+      "message": "Reset password {modelClass}: "
+    },
+    { "id": 1074, "category": "backend", "message": "Users" },
+    { "id": 1075, "category": "backend", "message": "Reset password" },
+    { "id": 1076, "category": "backend", "message": "Create {modelClass}" },
+    { "id": 1077, "category": "backend", "message": "Admin" },
+    {
+      "id": 1078,
+      "category": "backend",
+      "message": "Create Management User Role"
+    },
+    { "id": 1079, "category": "backend", "message": "User Roles" },
+    { "id": 1080, "category": "backend", "message": "Management User Roles" },
+    {
+      "id": 1081,
+      "category": "backend",
+      "message": "Update Management User Role: "
+    },
+    { "id": 1082, "category": "backend", "message": "Management User Role" },
+    {
+      "id": 1083,
+      "category": "backend",
+      "message": "Reset password Management User: "
+    },
+    { "id": 1084, "category": "backend", "message": "Management User" },
+    { "id": 1085, "category": "backend", "message": "Back" },
+    { "id": 1086, "category": "backend", "message": "Create Management User" },
+    { "id": 1087, "category": "backend", "message": "Update Management: " },
+    {
+      "id": 1088,
+      "category": "backend",
+      "message": "Reset password qua email"
+    },
+    { "id": 1089, "category": "backend", "message": "Create Building Cluster" },
+    { "id": 1090, "category": "backend", "message": "Building Cluster" },
+    {
+      "id": 1091,
+      "category": "backend",
+      "message": "Update Building Cluster: "
+    },
+    {
+      "id": 1092,
+      "category": "backend",
+      "message": "Create Announcement Template"
+    },
+    { "id": 1093, "category": "backend", "message": "Announcement Templates" },
+    {
+      "id": 1094,
+      "category": "backend",
+      "message": "Update Announcement Template: {name}"
+    },
+    { "id": 1095, "category": "backend", "message": "Create Help" },
+    { "id": 1096, "category": "backend", "message": "Helps" },
+    { "id": 1097, "category": "backend", "message": "Update Help: {name}" },
+    { "id": 1098, "category": "backend", "message": "Save" },
+    { "id": 1099, "category": "backend", "message": "Create Service" },
+    { "id": 1100, "category": "backend", "message": "Services" },
+    { "id": 1101, "category": "backend", "message": "Update Service: {name}" },
+    {
+      "id": 1102,
+      "category": "backend",
+      "message": "Create Service Bill Template"
+    },
+    { "id": 1103, "category": "backend", "message": "Service Bill Templates" },
+    {
+      "id": 1104,
+      "category": "backend",
+      "message": "Update Service Bill Template: {name}"
+    },
+    { "id": 1105, "category": "backend", "message": "Create User Role" },
+    { "id": 1106, "category": "backend", "message": "Update User Role: " },
+    { "id": 1107, "category": "backend", "message": "Create Help Category" },
+    { "id": 1108, "category": "backend", "message": "Help Categories" },
+    {
+      "id": 1109,
+      "category": "backend",
+      "message": "Update Help Category: {name}"
+    },
+    { "id": 1110, "category": "backend", "message": "Create Auth Group" },
+    { "id": 1111, "category": "backend", "message": "Auth Group" },
+    { "id": 1112, "category": "backend", "message": "Auth Groups" },
+    { "id": 1113, "category": "backend", "message": "Update Auth Group: " },
+    { "id": 1114, "category": "backend", "message": "Luci iBuilding" },
+    {
+      "id": 1115,
+      "category": "backend",
+      "message": "Warning! Something went wrong. "
+    },
+    { "id": 1116, "category": "backend", "message": "go back" },
+    {
+      "id": 1117,
+      "category": "backend",
+      "message": "Update User Successfully"
+    },
+    { "id": 1118, "category": "backend", "message": "New password saved." },
+    {
+      "id": 1119,
+      "category": "backend",
+      "message": "The requested page does not exist."
+    },
+    {
+      "id": 1120,
+      "category": "backend",
+      "message": "Create Role Successfully"
+    },
+    {
+      "id": 1121,
+      "category": "backend",
+      "message": "Update Role Successfully"
+    },
+    {
+      "id": 1122,
+      "category": "backend",
+      "message": "Auth Group is being used"
+    },
+    {
+      "id": 1123,
+      "category": "backend",
+      "message": "Delete Role Successfully"
+    },
+    { "id": 1124, "category": "backend", "message": "Service is being used" },
+    { "id": 1125, "category": "backend", "message": "Create Role Error" },
+    { "id": 1126, "category": "backend", "message": "Payment Config" },
+    { "id": 1127, "category": "backend", "message": "Help Category" },
+    { "id": 1128, "category": "backend", "message": "Help" },
+    { "id": 1129, "category": "backend", "message": "Service" },
+    { "id": 1130, "category": "backend", "message": "Service Bill Template" },
+    { "id": 1131, "category": "backend", "message": "Announcement Template" },
+    { "id": 1132, "category": "backend", "message": "Management Auth Group" },
+    { "id": 1133, "category": "backend", "message": "User manager" },
+    { "id": 1134, "category": "backend", "message": "Permission" },
+    { "id": 1135, "category": "backend", "message": "Create Successfully" },
+    {
+      "id": 1136,
+      "category": "backend",
+      "message": "Create BuildingCluster Error"
+    },
+    { "id": 1137, "category": "backend", "message": "Update Successfully" },
+    {
+      "id": 1138,
+      "category": "backend",
+      "message": "Building Cluster is being used"
+    },
+    { "id": 1139, "category": "backend", "message": "Delete Successfully" },
+    { "id": 1140, "category": "backend", "message": "Create Error" },
+    {
+      "id": 1141,
+      "category": "backend",
+      "message": "Reset password customer failed"
+    },
+    { "id": 1142, "category": "backend", "message": "Gửi mail thành công" },
+    { "id": 1143, "category": "backend", "message": "Delete Role Error" },
+    { "id": 1144, "category": "yii", "message": "Edit" },
+    { "id": 1145, "category": "frontend", "message": "Search" },
+    { "id": 1146, "category": "frontend", "message": "Reset" },
+    {
+      "id": 1147,
+      "category": "frontend",
+      "message": "The requested page does not exist."
+    },
+    { "id": 1148, "category": "language", "message": "Language" },
+    { "id": 1149, "category": "language", "message": "List of languages" },
+    { "id": 1150, "category": "language", "message": "Create" },
+    { "id": 1151, "category": "language", "message": "Scan" },
+    { "id": 1152, "category": "language", "message": "Optimize" },
+    { "id": 1153, "category": "language", "message": "Im-/Export" },
+    { "id": 1154, "category": "language", "message": "Import" },
+    { "id": 1155, "category": "language", "message": "Export" },
+    {
+      "id": 1156,
+      "category": "javascript",
+      "message": "Are you sure you want to delete these items?"
+    },
+    {
+      "id": 1157,
+      "category": "javascript",
+      "message": "Are you sure you want to delete this item?"
+    },
+    {
+      "id": 1158,
+      "category": "javascript",
+      "message": "Translation Language: {name}"
+    },
+    { "id": 1159, "category": "javascript", "message": "Save" },
+    { "id": 1160, "category": "javascript", "message": "Close" },
+    { "id": 1161, "category": "common", "message": "Username" },
+    { "id": 1162, "category": "common", "message": "Auth Key" },
+    { "id": 1163, "category": "common", "message": "Password Hash" },
+    { "id": 1164, "category": "common", "message": "Password Reset Token" },
+    { "id": 1165, "category": "common", "message": "Role ID" },
+    { "id": 1166, "category": "common", "message": "Ip" },
+    { "id": 1167, "category": "common", "message": "Management User Id" },
+    { "id": 1168, "category": "common", "message": "Ip Address" },
+    { "id": 1169, "category": "common", "message": "User Agent" },
+    { "id": 1170, "category": "common", "message": "Scope" },
+    { "id": 1171, "category": "common", "message": "Headers" },
+    { "id": 1172, "category": "common", "message": "Request" },
+    { "id": 1173, "category": "common", "message": "Response" },
+    { "id": 1174, "category": "common", "message": "Body Params" },
+    { "id": 1175, "category": "common", "message": "Query Params" },
+    { "id": 1176, "category": "common", "message": "Controller" },
+    { "id": 1177, "category": "common", "message": "Action" },
+    { "id": 1178, "category": "common", "message": "Authen" },
+    { "id": 1179, "category": "common", "message": "Apartment Capacity" },
+    { "id": 1180, "category": "common", "message": "Apartment Code" },
+    { "id": 1181, "category": "common", "message": "Resident User Phone" },
+    { "id": 1182, "category": "common", "message": "Resident User Email" },
+    { "id": 1183, "category": "common", "message": "Resident User First Name" },
+    { "id": 1184, "category": "common", "message": "Resident User Last Name" },
+    { "id": 1185, "category": "common", "message": "Resident User Gender" },
+    { "id": 1186, "category": "common", "message": "Resident User Birthday" },
+    { "id": 1187, "category": "common", "message": "Resident User Avatar" },
+    { "id": 1188, "category": "common", "message": "Type Relationship" },
+    {
+      "id": 1189,
+      "category": "common",
+      "message": "Resident User Is Send Email"
+    },
+    {
+      "id": 1190,
+      "category": "common",
+      "message": "Resident User Is Send Notify"
+    },
+    { "id": 1191, "category": "common", "message": "Install App" },
+    { "id": 1192, "category": "common", "message": "Payload" },
+    { "id": 1193, "category": "common", "message": "Password" },
+    { "id": 1194, "category": "common", "message": "First Name" },
+    { "id": 1195, "category": "common", "message": "Last Name" },
+    { "id": 1196, "category": "common", "message": "Avatar" },
+    { "id": 1197, "category": "common", "message": "Gender" },
+    { "id": 1198, "category": "common", "message": "Birthday" },
+    { "id": 1199, "category": "common", "message": "Status Verify Phone" },
+    { "id": 1200, "category": "common", "message": "Status Verify Email" },
+    { "id": 1201, "category": "common", "message": "Notify Tags" },
+    { "id": 1202, "category": "common", "message": "Active App" },
+    { "id": 1203, "category": "common", "message": "Is Send Notify" },
+    { "id": 1204, "category": "common", "message": "Ngày nhập khẩu" },
+    { "id": 1205, "category": "common", "message": "Ngày tạm trú" },
+    { "id": 1206, "category": "common", "message": "Ngày hết hạn thị thực" },
+    { "id": 1207, "category": "common", "message": "Số chứng minh thư" },
+    { "id": 1208, "category": "common", "message": "Ngày cấp chứng minh thư" },
+    { "id": 1209, "category": "common", "message": "Nơi cấp chứng minh thư" },
+    { "id": 1210, "category": "common", "message": "Quốc tịch" },
+    { "id": 1211, "category": "common", "message": "Công việc" },
+    { "id": 1212, "category": "common", "message": "District ID" },
+    { "id": 1213, "category": "backend", "message": "Vietnamese" },
+    { "id": 1214, "category": "backend", "message": "English" },
+    {
+      "id": 1215,
+      "category": "frontend",
+      "message": "Service Electric Info Using, Not Update End Date"
+    },
+    { "id": 1216, "category": "pay", "message": "Payment Config Empty" },
+    { "id": 1217, "category": "pay", "message": "Invalid data" },
+    { "id": 1218, "category": "pay", "message": "System busy" },
+    { "id": 1219, "category": "pay", "message": "Create Payment Order Error" },
+    {
+      "id": 1220,
+      "category": "pay",
+      "message": "Create Payment Order Item Error"
+    },
+    { "id": 1221, "category": "pay", "message": "Update Payment Order Error" },
+    {
+      "id": 1222,
+      "category": "pay",
+      "message": "Update lock_time paymentGenCode error"
+    },
+    { "id": 1223, "category": "pay", "message": "Success" },
+    { "id": 1224, "category": "resident", "message": "Apartment code empty" },
+    { "id": 1225, "category": "common", "message": "Link Weather" },
+    {
+      "id": 1226,
+      "category": "backend",
+      "message": "Category using, not delete"
+    },
+    {
+      "id": 1227,
+      "category": "frontend",
+      "message": "Service fee approval failed"
+    },
+    {
+      "id": 1228,
+      "category": "frontend",
+      "message": "Code management user exist"
+    }
+  ],
+  "languageTranslations": [
+    { "id": 1, "language": "en-US", "translation": "Invalid data" },
+    { "id": 1, "language": "vi-VN", "translation": "Dữ liệu không hợp lệ." },
+    { "id": 2, "language": "vi-VN", "translation": "Tải file thành công." },
+    {
+      "id": 3,
+      "language": "vi-VN",
+      "translation": "Tải file không thành công."
+    },
+    { "id": 4, "language": "vi-VN", "translation": "Dữ liệu file không đúng." },
+    { "id": 5, "language": "vi-VN", "translation": "Tạo mới thành công." },
+    {
+      "id": 6,
+      "language": "vi-VN",
+      "translation": "Hệ thống bận. Vui lòng thử lại sau."
+    },
+    { "id": 7, "language": "vi-VN", "translation": "Tạo danh mục thành công." },
+    {
+      "id": 8,
+      "language": "vi-VN",
+      "translation": "Không thể xóa danh mục đang được sử dụng."
+    },
+    { "id": 9, "language": "vi-VN", "translation": "Xóa thành công." },
+    {
+      "id": 10,
+      "language": "vi-VN",
+      "translation": "Hệ thống đang bận. Vui lòng thử lại sau."
+    },
+    {
+      "id": 11,
+      "language": "vi-VN",
+      "translation": "Số điện thoại không hợp lệ."
+    },
+    {
+      "id": 12,
+      "language": "vi-VN",
+      "translation": "Căn hộ đang có cư dân nên không thể xóa"
+    },
+    { "id": 13, "language": "vi-VN", "translation": "Xóa thành công." },
+    {
+      "id": 14,
+      "language": "vi-VN",
+      "translation": "Một căn hộ chỉ có duy nhất một chủ hộ."
+    },
+    { "id": 15, "language": "vi-VN", "translation": "Thêm mới thành công." },
+    { "id": 16, "language": "vi-VN", "translation": "Xóa thành công." },
+    { "id": 17, "language": "vi-VN", "translation": "Chỉnh sửa thành công." },
+    {
+      "id": 18,
+      "language": "vi-VN",
+      "translation": "Email hoặc mật khẩu không hợp lệ."
+    },
+    { "id": 19, "language": "vi-VN", "translation": "Tài khoản không hợp lệ." },
+    {
+      "id": 20,
+      "language": "vi-VN",
+      "translation": "Bạn phải nhập cùng mật khẩu hai lần để xác nhận mật khẩu."
+    },
+    { "id": 21, "language": "vi-VN", "translation": "Mật khẩu cũ không đúng." },
+    {
+      "id": 22,
+      "language": "vi-VN",
+      "translation": "Thay đổi mật khẩu không thành công."
+    },
+    {
+      "id": 23,
+      "language": "vi-VN",
+      "translation": "Thay đổi mật khẩu thành công"
+    },
+    { "id": 24, "language": "vi-VN", "translation": "Email đã tồn tại." },
+    {
+      "id": 25,
+      "language": "vi-VN",
+      "translation": "Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại."
+    },
+    { "id": 26, "language": "vi-VN", "translation": "Management User invalid" },
+    {
+      "id": 27,
+      "language": "vi-VN",
+      "translation": "Bạn không có quyền truy cập chức năng này."
+    },
+    {
+      "id": 28,
+      "language": "vi-VN",
+      "translation": "Danh mục đang có yêu cầu nên không thể xóa."
+    },
+    {
+      "id": 29,
+      "language": "vi-VN",
+      "translation": "Số điện thoại đã tồn tại."
+    },
+    {
+      "id": 30,
+      "language": "vi-VN",
+      "translation": "Thay đổi trạng thái thành công."
+    },
+    { "id": 31, "language": "vi-VN", "translation": "Dịch vụ đã tồn tại." },
+    {
+      "id": 32,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đã được sử dụng."
+    },
+    {
+      "id": 33,
+      "language": "vi-VN",
+      "translation": "Import dữ liệu thành công."
+    },
+    { "id": 34, "language": "en-US", "translation": "Error" },
+    {
+      "id": 34,
+      "language": "vi-VN",
+      "translation": "Hệ thống đang bận. Vui lòng thử lại sau."
+    },
+    {
+      "id": 35,
+      "language": "en-US",
+      "translation": "An internal server error has occurred."
+    },
+    {
+      "id": 35,
+      "language": "vi-VN",
+      "translation": "Máy chủ nội bộ đang bận. Vui lòng thử lại sau."
+    },
+    { "id": 36, "language": "vi-VN", "translation": "Dữ liệu không hợp lệ." },
+    { "id": 37, "language": "vi-VN", "translation": "Tải file thành công." },
+    {
+      "id": 38,
+      "language": "vi-VN",
+      "translation": "Tải file không thành công."
+    },
+    {
+      "id": 39,
+      "language": "vi-VN",
+      "translation": "Dữ liệu trên file không đúng."
+    },
+    { "id": 40, "language": "vi-VN", "translation": "Thêm mới thành công." },
+    {
+      "id": 41,
+      "language": "vi-VN",
+      "translation": "Hệ thống đang bận. Vui lòng thử lại sau."
+    },
+    {
+      "id": 42,
+      "language": "vi-VN",
+      "translation": "Cư dân không phải chủ hộ."
+    },
+    { "id": 43, "language": "vi-VN", "translation": "Không thể thêm chủ hộ." },
+    { "id": 44, "language": "vi-VN", "translation": "Xóa thành công." },
+    {
+      "id": 45,
+      "language": "vi-VN",
+      "translation": "Tài khoản cư dân không hợp lệ"
+    },
+    {
+      "id": 46,
+      "language": "vi-VN",
+      "translation": "Số điện thoại không được để trống."
+    },
+    { "id": 47, "language": "vi-VN", "translation": "Xóa thành công." },
+    {
+      "id": 48,
+      "language": "vi-VN",
+      "translation": "Danh mục yêu cầu không tồn tại"
+    },
+    { "id": 49, "language": "vi-VN", "translation": "Thêm mới thành công." },
+    { "id": 50, "language": "vi-VN", "translation": "Chỉnh sửa thành công." },
+    {
+      "id": 51,
+      "language": "vi-VN",
+      "translation": "Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại."
+    },
+    {
+      "id": 52,
+      "language": "vi-VN",
+      "translation": "Nhóm người dùng không hợp lệ."
+    },
+    {
+      "id": 53,
+      "language": "vi-VN",
+      "translation": "Thay đổi trạng thái thành công"
+    },
+    { "id": 54, "language": "vi-VN", "translation": "Xóa thành công." },
+    { "id": 55, "language": "en-US", "translation": "ID" },
+    { "id": 55, "language": "vi-VN", "translation": "ID" },
+    { "id": 56, "language": "vi-VN", "translation": "Chức vụ" },
+    { "id": 57, "language": "en-US", "translation": "Detail" },
+    { "id": 57, "language": "vi-VN", "translation": "Mô tả" },
+    { "id": 58, "language": "vi-VN", "translation": "Nội dung" },
+    { "id": 59, "language": "vi-VN", "translation": "Đính kèm" },
+    { "id": 60, "language": "en-US", "translation": "Status" },
+    { "id": 60, "language": "vi-VN", "translation": "Trạng thái" },
+    { "id": 61, "language": "vi-VN", "translation": "Gửi thông báo" },
+    { "id": 62, "language": "vi-VN", "translation": "Gửi email" },
+    { "id": 63, "language": "vi-VN", "translation": "Gửi sms" },
+    { "id": 64, "language": "vi-VN", "translation": "Gửi vào" },
+    { "id": 65, "language": "vi-VN", "translation": "Được gửi" },
+    { "id": 66, "language": "en-US", "translation": "Building Cluster" },
+    { "id": 66, "language": "vi-VN", "translation": "Mã cụm" },
+    { "id": 67, "language": "en-US", "translation": "Created at" },
+    { "id": 67, "language": "vi-VN", "translation": "Ngày tạo" },
+    { "id": 68, "language": "en-US", "translation": "Updated at" },
+    { "id": 68, "language": "vi-VN", "translation": "Ngày chỉnh sửa" },
+    { "id": 69, "language": "en-US", "translation": "Created by" },
+    { "id": 69, "language": "vi-VN", "translation": "Người tạo" },
+    { "id": 70, "language": "en-US", "translation": "Updated by" },
+    { "id": 70, "language": "vi-VN", "translation": "Người sửa" },
+    { "id": 71, "language": "vi-VN", "translation": "Danh mục thông báo" },
+    { "id": 72, "language": "vi-VN", "translation": "Căn hộ đã gửi" },
+    { "id": 73, "language": "vi-VN", "translation": "Căn hộ đã xem" },
+    { "id": 74, "language": "en-US", "translation": "Cr Minutes" },
+    { "id": 74, "language": "vi-VN", "translation": "Cr Minutes" },
+    { "id": 75, "language": "en-US", "translation": "Cr Hours" },
+    { "id": 75, "language": "vi-VN", "translation": "Cr Hours" },
+    { "id": 76, "language": "en-US", "translation": "Cr Days" },
+    { "id": 76, "language": "vi-VN", "translation": "Cr Days" },
+    { "id": 77, "language": "en-US", "translation": "Cr Months" },
+    { "id": 77, "language": "vi-VN", "translation": "Cr Months" },
+    { "id": 78, "language": "en-US", "translation": "Cr Days Of Week" },
+    { "id": 78, "language": "vi-VN", "translation": "Cr Days Of Week" },
+    { "id": 79, "language": "en-US", "translation": "Name" },
+    { "id": 79, "language": "vi-VN", "translation": "Tên" },
+    { "id": 80, "language": "vi-VN", "translation": "Màu nhãn" },
+    { "id": 81, "language": "vi-VN", "translation": "Kế hoạch thông báo" },
+    { "id": 82, "language": "en-US", "translation": "Building Area" },
+    { "id": 82, "language": "vi-VN", "translation": "Mã khu" },
+    { "id": 83, "language": "en-US", "translation": "Apartment Code" },
+    { "id": 83, "language": "vi-VN", "translation": "Mã căn hộ" },
+    { "id": 84, "language": "vi-VN", "translation": "Đã đọc" },
+    { "id": 85, "language": "vi-VN", "translation": "Tags" },
+    { "id": 86, "language": "en-US", "translation": "Code" },
+    { "id": 86, "language": "vi-VN", "translation": "Mã code" },
+    { "id": 87, "language": "en-US", "translation": "Cluster" },
+    { "id": 87, "language": "vi-VN", "translation": "Phân khu" },
+    { "id": 88, "language": "en-US", "translation": "Video" },
+    { "id": 88, "language": "vi-VN", "translation": "Video" },
+    { "id": 89, "language": "en-US", "translation": "Deleted" },
+    { "id": 89, "language": "vi-VN", "translation": "Đã bị xóa" },
+    { "id": 90, "language": "en-US", "translation": "Resident Code" },
+    { "id": 90, "language": "vi-VN", "translation": "Mã cư dân" },
+    { "id": 91, "language": "en-US", "translation": "Amount" },
+    { "id": 91, "language": "vi-VN", "translation": "Số lượng" },
+    { "id": 92, "language": "en-US", "translation": "Invalid data" },
+    { "id": 92, "language": "vi-VN", "translation": "Dữ liệu không hợp lệ." },
+    { "id": 93, "language": "vi-VN", "translation": "Parent ID" },
+    { "id": 94, "language": "en-US", "translation": "Domain" },
+    { "id": 94, "language": "vi-VN", "translation": "Tên miền" },
+    { "id": 95, "language": "en-US", "translation": "Email" },
+    { "id": 95, "language": "vi-VN", "translation": "Email" },
+    { "id": 96, "language": "en-US", "translation": "Hotline" },
+    { "id": 96, "language": "vi-VN", "translation": "Hotline" },
+    { "id": 97, "language": "en-US", "translation": "Address" },
+    { "id": 97, "language": "vi-VN", "translation": "Địa chỉ" },
+    { "id": 98, "language": "en-US", "translation": "One Signal App Id" },
+    { "id": 98, "language": "vi-VN", "translation": "One Signal App Id" },
+    { "id": 99, "language": "en-US", "translation": "One Signal Api Key" },
+    { "id": 99, "language": "vi-VN", "translation": "One Signal Api Key" },
+    { "id": 100, "language": "en-US", "translation": "Bank Account" },
+    { "id": 100, "language": "vi-VN", "translation": "Tài khoản ngân hàng" },
+    { "id": 101, "language": "en-US", "translation": "Tax code" },
+    { "id": 101, "language": "vi-VN", "translation": "Mã số thuế" },
+    { "id": 102, "language": "en-US", "translation": "Tax information" },
+    { "id": 102, "language": "vi-VN", "translation": "Thông tin thuế" },
+    { "id": 103, "language": "en-US", "translation": "" },
+    { "id": 103, "language": "vi-VN", "translation": "Auth Item Tags" },
+    { "id": 104, "language": "en-US", "translation": "ID City" },
+    { "id": 104, "language": "vi-VN", "translation": "Thành phố" },
+    { "id": 105, "language": "en-US", "translation": "User ID management" },
+    { "id": 105, "language": "vi-VN", "translation": "Quản lý ID người dùng" },
+    { "id": 106, "language": "vi-VN", "translation": "Đừng dẫn" },
+    { "id": 107, "language": "en-US", "translation": "Type" },
+    { "id": 107, "language": "vi-VN", "translation": "Loại" },
+    { "id": 108, "language": "vi-VN", "translation": "Kích thước" },
+    { "id": 109, "language": "vi-VN", "translation": "Email đã tồn tại" },
+    {
+      "id": 110,
+      "language": "en-US",
+      "translation": "Password verification must be more than 6 characters and include a-z; A-Z; 0-9 or special characters \"! @ # $% ^ & * ()"
+    },
+    {
+      "id": 110,
+      "language": "vi-VN",
+      "translation": "Mật khẩu phải có nhiều hơn 6 ký tự và bao gồm a-z; A-Z; 0-9 hoặc ký tự đặc biệt \"! @ # $% ^ & * ()"
+    },
+    {
+      "id": 111,
+      "language": "en-US",
+      "translation": "Password verification must be more than 6 characters and include a-z; A-Z; 0-9 or special characters \"! @ # $% ^ & * ()"
+    },
+    {
+      "id": 111,
+      "language": "vi-VN",
+      "translation": "Xác nhận mật khẩu phải có nhiều hơn 6 ký tự và bao gồm a-z; A-Z; 0-9 hoặc ký tự đặc biệt \"! @ # $% ^ & * ()"
+    },
+    {
+      "id": 112,
+      "language": "en-US",
+      "translation": "Confirm password and new password must be the same"
+    },
+    {
+      "id": 112,
+      "language": "vi-VN",
+      "translation": "Xác nhận mật khẩu và mật khẩu mới phải giống nhau"
+    },
+    {
+      "id": 113,
+      "language": "vi-VN",
+      "translation": "Số điện thoại không hợp lệ"
+    },
+    { "id": 114, "language": "vi-VN", "translation": "Thông tin không hợp lệ" },
+    {
+      "id": 115,
+      "language": "vi-VN",
+      "translation": "Mật khẩu cũ không hợp lệ"
+    },
+    { "id": 116, "language": "en-US", "translation": "Token" },
+    { "id": 116, "language": "vi-VN", "translation": "Token" },
+    { "id": 117, "language": "en-US", "translation": "Token Hash" },
+    { "id": 117, "language": "vi-VN", "translation": "Token Hash" },
+    { "id": 118, "language": "en-US", "translation": "Expires on" },
+    { "id": 118, "language": "vi-VN", "translation": "Hết hạn vào" },
+    {
+      "id": 119,
+      "language": "vi-VN",
+      "translation": "Quản lý mã thông báo truy cập người dùng"
+    },
+    { "id": 120, "language": "vi-VN", "translation": "Device Token" },
+    { "id": 121, "language": "vi-VN", "translation": "Đã xem" },
+    { "id": 122, "language": "vi-VN", "translation": "Đã ẩn" },
+    { "id": 123, "language": "vi-VN", "translation": "ID yêu cầu" },
+    { "id": 124, "language": "vi-VN", "translation": "ID trả lời yêu cầu" },
+    { "id": 125, "language": "vi-VN", "translation": "ID trao đổi nội bộ" },
+    { "id": 126, "language": "en-US", "translation": "Bill Code" },
+    { "id": 126, "language": "vi-VN", "translation": "Mã phiếu thu dịch vụ" },
+    { "id": 127, "language": "vi-VN", "translation": "Mã thiết bị" },
+    {
+      "id": 128,
+      "language": "vi-VN",
+      "translation": "Nhóm người dùng đang được sử dụng"
+    },
+    { "id": 129, "language": "vi-VN", "translation": "Xóa thành công" },
+    { "id": 130, "language": "vi-VN", "translation": "Vai trò đã tồn tại" },
+    { "id": 131, "language": "vi-VN", "translation": "Danh mục yêu cầu" },
+    { "id": 132, "language": "vi-VN", "translation": "Tổng câu trả lời" },
+    { "id": 133, "language": "vi-VN", "translation": "Màu sắc" },
+    { "id": 134, "language": "vi-VN", "translation": "Nhóm xác thực" },
+    { "id": 135, "language": "vi-VN", "translation": "Nhóm xác thực" },
+    { "id": 136, "language": "vi-VN", "translation": "Ngày tháng" },
+    { "id": 137, "language": "vi-VN", "translation": "Tổng số" },
+    { "id": 138, "language": "vi-VN", "translation": "Mã truy cập người dùng" },
+    { "id": 139, "language": "vi-VN", "translation": "Mục thông báo" },
+    { "id": 140, "language": "en-US", "translation": "Logo" },
+    { "id": 140, "language": "vi-VN", "translation": "Logo" },
+    { "id": 141, "language": "en-US", "translation": "Icon" },
+    { "id": 141, "language": "vi-VN", "translation": "Tên biểu tượng" },
+    { "id": 142, "language": "en-US", "translation": "Service Type" },
+    { "id": 142, "language": "vi-VN", "translation": "Loại dịch vụ" },
+    { "id": 143, "language": "en-US", "translation": "Type of goal" },
+    { "id": 143, "language": "vi-VN", "translation": "Loại mục tiêu" },
+    { "id": 144, "language": "en-US", "translation": "" },
+    { "id": 144, "language": "vi-VN", "translation": "Base Url" },
+    { "id": 145, "language": "en-US", "translation": "Member's name" },
+    { "id": 145, "language": "vi-VN", "translation": "Tên thành viên" },
+    { "id": 146, "language": "en-US", "translation": "Submitter's name" },
+    { "id": 146, "language": "vi-VN", "translation": "Tên người nộp" },
+    { "id": 147, "language": "en-US", "translation": "Payment type" },
+    { "id": 147, "language": "vi-VN", "translation": "Loại thanh toán" },
+    { "id": 148, "language": "en-US", "translation": "Total Money" },
+    { "id": 148, "language": "vi-VN", "translation": "Tổng tiền" },
+    { "id": 149, "language": "en-US", "translation": "Service Provider" },
+    { "id": 149, "language": "vi-VN", "translation": "Nhà cung cấp dịch vụ" },
+    {
+      "id": 150,
+      "language": "en-US",
+      "translation": "Service fee payment code"
+    },
+    {
+      "id": 150,
+      "language": "vi-VN",
+      "translation": "Mã phí thanh toán dịch vụ"
+    },
+    {
+      "id": 151,
+      "language": "en-US",
+      "translation": "Service code management"
+    },
+    { "id": 151, "language": "vi-VN", "translation": "Quản lý mã dịch vụ" },
+    { "id": 152, "language": "en-US", "translation": "Price" },
+    { "id": 152, "language": "vi-VN", "translation": "Giá" },
+    { "id": 153, "language": "en-US", "translation": "Free of month" },
+    { "id": 153, "language": "vi-VN", "translation": "Phí tháng" },
+    { "id": 154, "language": "en-US", "translation": "Service Code" },
+    { "id": 154, "language": "vi-VN", "translation": "Mã dịch vụ" },
+    { "id": 155, "language": "en-US", "translation": "Unit" },
+    { "id": 155, "language": "vi-VN", "translation": "Đơn vị" },
+    { "id": 156, "language": "en-US", "translation": "Date" },
+    { "id": 156, "language": "vi-VN", "translation": "Ngày" },
+    { "id": 157, "language": "en-US", "translation": "Repeat by month" },
+    { "id": 157, "language": "vi-VN", "translation": "Lặp lại theo tháng" },
+    { "id": 158, "language": "en-US", "translation": "Day off" },
+    { "id": 158, "language": "vi-VN", "translation": "Ngày nghỉ" },
+    { "id": 159, "language": "vi-VN", "translation": "Tên dịch vụ" },
+    { "id": 160, "language": "vi-VN", "translation": "Service Base Url" },
+    { "id": 161, "language": "vi-VN", "translation": "Mô tả dịch vụ" },
+    { "id": 162, "language": "vi-VN", "translation": "Tên biểu tượng dịch vụ" },
+    {
+      "id": 163,
+      "language": "vi-VN",
+      "translation": "ID nhà cung cấp dịch vụ"
+    },
+    { "id": 164, "language": "en-US", "translation": "Expiration date" },
+    { "id": 164, "language": "vi-VN", "translation": "Ngày hết hạn" },
+    { "id": 165, "language": "en-US", "translation": "Bill service" },
+    { "id": 165, "language": "vi-VN", "translation": "Hóa đơn dịch vụ" },
+    { "id": 166, "language": "en-US", "translation": "Bill code" },
+    { "id": 166, "language": "vi-VN", "translation": "Mã hóa đơn dịch vụ" },
+    {
+      "id": 167,
+      "language": "vi-VN",
+      "translation": "Hướng dẫn thanh toán tiền mặt"
+    },
+    { "id": 168, "language": "vi-VN", "translation": "Hướng dẫn chuyển khoản" },
+    { "id": 169, "language": "vi-VN", "translation": "Tên ngân hàng" },
+    { "id": 170, "language": "vi-VN", "translation": "Số tài khoản" },
+    { "id": 171, "language": "vi-VN", "translation": "Chủ tài khoản" },
+    { "id": 172, "language": "en-US", "translation": "Start time" },
+    { "id": 172, "language": "vi-VN", "translation": "Giờ bắt đầu" },
+    { "id": 173, "language": "en-US", "translation": "End time" },
+    { "id": 173, "language": "vi-VN", "translation": "Giờ kết thúc" },
+    { "id": 174, "language": "en-US", "translation": "From" },
+    { "id": 174, "language": "vi-VN", "translation": "Từ" },
+    { "id": 175, "language": "en-US", "translation": "To" },
+    { "id": 175, "language": "vi-VN", "translation": "Đến" },
+    { "id": 176, "language": "en-US", "translation": "Access rights" },
+    { "id": 176, "language": "vi-VN", "translation": "Quyền truy cập" },
+    {
+      "id": 177,
+      "language": "vi-VN",
+      "translation": "Phiên đăng nhập đã hết hạn"
+    },
+    { "id": 178, "language": "vi-VN", "translation": "Token không tồn tại" },
+    {
+      "id": 179,
+      "language": "vi-VN",
+      "translation": "Email hoặc mật khẩu không đúng."
+    },
+    { "id": 180, "language": "vi-VN", "translation": "Mã captcha không đúng." },
+    {
+      "id": 181,
+      "language": "vi-VN",
+      "translation": "Cư dân đã có trong căn hộ."
+    },
+    {
+      "id": 182,
+      "language": "vi-VN",
+      "translation": "Danh mục đang có bài viết nên không thể xóa."
+    },
+    {
+      "id": 183,
+      "language": "vi-VN",
+      "translation": "Nhà cung cấp đang có dịch vụ nên không thể xóa."
+    },
+    { "id": 184, "language": "vi-VN", "translation": "Sự kiện" },
+    { "id": 185, "language": "vi-VN", "translation": "Gửi sự kiện" },
+    { "id": 186, "language": "vi-VN", "translation": "Số danh mục" },
+    { "id": 187, "language": "vi-VN", "translation": "Căn hộ chưa có chủ hộ" },
+    { "id": 188, "language": "vi-VN", "translation": "Tỷ lệ thành công" },
+    { "id": 189, "language": "vi-VN", "translation": "Lưu nháp" },
+    { "id": 190, "language": "vi-VN", "translation": "Số" },
+    { "id": 191, "language": "vi-VN", "translation": "Tỷ lệ" },
+    {
+      "id": 192,
+      "language": "vi-VN",
+      "translation": "Khu đang có tầng nên không thể xóa"
+    },
+    {
+      "id": 193,
+      "language": "vi-VN",
+      "translation": "Tầng đang có căn hộ nên không thể xóa"
+    },
+    { "id": 194, "language": "vi-VN", "translation": "Thứ tự" },
+    { "id": 195, "language": "vi-VN", "translation": "Thành công" },
+    { "id": 196, "language": "vi-VN", "translation": "Email không tồn tại" },
+    {
+      "id": 197,
+      "language": "vi-VN",
+      "translation": "Số dư cuối kỳ phải lớn hơn số dư đầu kỳ"
+    },
+    { "id": 198, "language": "vi-VN", "translation": "Trợ giúp" },
+    { "id": 199, "language": "vi-VN", "translation": "Chỉ số đầu" },
+    { "id": 200, "language": "vi-VN", "translation": "Chỉ số cuối" },
+    { "id": 201, "language": "vi-VN", "translation": "Tổng chỉ số" },
+    { "id": 202, "language": "vi-VN", "translation": "Tổng tiền" },
+    { "id": 203, "language": "vi-VN", "translation": "Thời gian khóa" },
+    { "id": 204, "language": "vi-VN", "translation": "Phí đã được tạo" },
+    { "id": 205, "language": "vi-VN", "translation": "Gửi sự kiện vào lúc" },
+    {
+      "id": 206,
+      "language": "vi-VN",
+      "translation": "Căn hộ chưa được cấu hình phí"
+    },
+    { "id": 207, "language": "vi-VN", "translation": "Xóa lỗi" },
+    {
+      "id": 208,
+      "language": "vi-VN",
+      "translation": "Tạo phí thanh toán không thành công"
+    },
+    { "id": 209, "language": "vi-VN", "translation": "Tên rút gọn đã tồn tại" },
+    {
+      "id": 210,
+      "language": "vi-VN",
+      "translation": "Thời gian chốt không đúng"
+    },
+    { "id": 211, "language": "vi-VN", "translation": "Nhập lỗi" },
+    {
+      "id": 212,
+      "language": "vi-VN",
+      "translation": "Tự động tạo phí, không được nhập"
+    },
+    {
+      "id": 214,
+      "language": "vi-VN",
+      "translation": "Quá giới hạn cho phép được gửi trong tháng"
+    },
+    { "id": 215, "language": "vi-VN", "translation": "Trạng thái không đúng" },
+    { "id": 216, "language": "vi-VN", "translation": "Trạng thái không đúng" },
+    { "id": 217, "language": "vi-VN", "translation": "Hủy thành công" },
+    {
+      "id": 218,
+      "language": "vi-VN",
+      "translation": "Chỉ số ban đầu đã được khai báo"
+    },
+    {
+      "id": 219,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được cập nhật hoặc xóa"
+    },
+    {
+      "id": 220,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được xóa"
+    },
+    {
+      "id": 221,
+      "language": "vi-VN",
+      "translation": "Tạo cấu hình thanh toán lỗi"
+    },
+    { "id": 222, "language": "vi-VN", "translation": "Tạo số phiếu thu lỗi" },
+    {
+      "id": 223,
+      "language": "vi-VN",
+      "translation": "Phí tháng sau chưa bị xóa"
+    },
+    {
+      "id": 224,
+      "language": "vi-VN",
+      "translation": "Chỉ số sử dụng đã được khai báo"
+    },
+    {
+      "id": 225,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đã được khai báo"
+    },
+    {
+      "id": 226,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được cập nhật hoặc xóa"
+    },
+    {
+      "id": 227,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được xóa"
+    },
+    {
+      "id": 228,
+      "language": "vi-VN",
+      "translation": "Chưa cài cấu hình dịch vụ"
+    },
+    {
+      "id": 229,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được xóa"
+    },
+    {
+      "id": 230,
+      "language": "vi-VN",
+      "translation": "Thông tin xe đã tồn tại"
+    },
+    {
+      "id": 231,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được cập nhật hoặc xóa"
+    },
+    {
+      "id": 232,
+      "language": "vi-VN",
+      "translation": "Xe đã được khai báo sử dụng, không được xóa"
+    },
+    { "id": 233, "language": "vi-VN", "translation": "Hủy lỗi" },
+    {
+      "id": 234,
+      "language": "vi-VN",
+      "translation": "Không đúng phí của căn hộ"
+    },
+    { "id": 235, "language": "vi-VN", "translation": "Cập nhập thành công" },
+    {
+      "id": 236,
+      "language": "vi-VN",
+      "translation": "Xóa mã không thành công"
+    },
+    { "id": 237, "language": "vi-VN", "translation": "Xóa thành công" },
+    { "id": 238, "language": "vi-VN", "translation": "Yêu cầu" },
+    { "id": 239, "language": "vi-VN", "translation": "Đổi trạng thái" },
+    {
+      "id": 240,
+      "language": "vi-VN",
+      "translation": "Thêm hoặc xóa nhóm quyền"
+    },
+    { "id": 241, "language": "vi-VN", "translation": "Danh mục yêu cầu" },
+    { "id": 242, "language": "vi-VN", "translation": "Tạo mới" },
+    { "id": 243, "language": "vi-VN", "translation": "Cập nhật" },
+    { "id": 244, "language": "vi-VN", "translation": "Thông báo" },
+    { "id": 245, "language": "vi-VN", "translation": "Công khai" },
+    { "id": 246, "language": "vi-VN", "translation": "Danh mục thông báo" },
+    { "id": 247, "language": "vi-VN", "translation": "Dịch vụ" },
+    {
+      "id": 248,
+      "language": "vi-VN",
+      "translation": "Cấu hình dịch vụ tòa nhà"
+    },
+    { "id": 249, "language": "vi-VN", "translation": "Phí dịch vụ tòa nhà" },
+    { "id": 250, "language": "vi-VN", "translation": "Nhập" },
+    {
+      "id": 251,
+      "language": "vi-VN",
+      "translation": "Thông tin dịch vụ tòa nhà"
+    },
+    { "id": 252, "language": "vi-VN", "translation": "Cấu hình dịch vụ điện" },
+    { "id": 253, "language": "vi-VN", "translation": "Phí dịch vụ điện" },
+    { "id": 254, "language": "vi-VN", "translation": "Thông tin dịch vụ điện" },
+    { "id": 255, "language": "vi-VN", "translation": "Định mức dịch vụ điện" },
+    { "id": 256, "language": "vi-VN", "translation": "Quản lý dịch vụ gửi xe" },
+    {
+      "id": 257,
+      "language": "vi-VN",
+      "translation": "Cấu hình dịch vụ gửi xe"
+    },
+    { "id": 258, "language": "vi-VN", "translation": "Phí dịch vụ gửi xe" },
+    { "id": 259, "language": "vi-VN", "translation": "Mức phí gửi xe" },
+    { "id": 260, "language": "vi-VN", "translation": "Cấu hình dịch vụ nước" },
+    { "id": 261, "language": "vi-VN", "translation": "Phí dịch vụ nước" },
+    { "id": 262, "language": "vi-VN", "translation": "Thông tin dịch vụ nước" },
+    { "id": 263, "language": "vi-VN", "translation": "Định mức dịch vụ nước" },
+    { "id": 264, "language": "vi-VN", "translation": "Phiếu thu" },
+    { "id": 265, "language": "vi-VN", "translation": "Xóa" },
+    { "id": 266, "language": "vi-VN", "translation": "Khóa" },
+    { "id": 267, "language": "vi-VN", "translation": "Hủy" },
+    { "id": 268, "language": "vi-VN", "translation": "In" },
+    { "id": 269, "language": "vi-VN", "translation": "Cư dân" },
+    { "id": 270, "language": "vi-VN", "translation": "Căn hộ" },
+    { "id": 271, "language": "vi-VN", "translation": "Thêm cư dân" },
+    { "id": 272, "language": "vi-VN", "translation": "Xóa cư dân" },
+    { "id": 273, "language": "vi-VN", "translation": "Mặt bằng" },
+    { "id": 274, "language": "vi-VN", "translation": "Phân quyền" },
+    { "id": 275, "language": "vi-VN", "translation": "Tạo nhóm quyền" },
+    { "id": 276, "language": "vi-VN", "translation": "Cập nhập nhóm quyền" },
+    { "id": 277, "language": "vi-VN", "translation": "Xóa nhóm quyền" },
+    { "id": 278, "language": "vi-VN", "translation": "Tạo quyền Web" },
+    { "id": 279, "language": "vi-VN", "translation": "Xác thực" },
+    { "id": 280, "language": "vi-VN", "translation": "Đăng nhập" },
+    { "id": 281, "language": "vi-VN", "translation": "Đăng xuất" },
+    { "id": 282, "language": "vi-VN", "translation": "Quên mật khẩu" },
+    { "id": 283, "language": "vi-VN", "translation": "Cập nhật mật khẩu" },
+    { "id": 284, "language": "vi-VN", "translation": "Nội dung chi tiết" },
+    { "id": 285, "language": "vi-VN", "translation": "Tổng tiền" },
+    { "id": 286, "language": "vi-VN", "translation": "Tên" },
+    { "id": 287, "language": "vi-VN", "translation": "Email" },
+    { "id": 288, "language": "vi-VN", "translation": "Điện thoại" },
+    { "id": 289, "language": "vi-VN", "translation": "Nội dung gửi email" },
+    { "id": 290, "language": "vi-VN", "translation": "Nội dung trên ứng dụng" },
+    { "id": 291, "language": "vi-VN", "translation": "Nội dung tin nhắn" },
+    { "id": 292, "language": "vi-VN", "translation": "Nội dung pdf" },
+    { "id": 293, "language": "vi-VN", "translation": "Người bàn giao" },
+    { "id": 294, "language": "vi-VN", "translation": "Ngày nhận nhà" },
+    { "id": 295, "language": "vi-VN", "translation": "Tổng thành viên" },
+    { "id": 296, "language": "vi-VN", "translation": "Tên viết tắt" },
+    { "id": 297, "language": "vi-VN", "translation": "Nhắc nợ" },
+    { "id": 298, "language": "vi-VN", "translation": "Tên căn hộ viết tắt" },
+    { "id": 299, "language": "vi-VN", "translation": "Phí tự động" },
+    { "id": 300, "language": "vi-VN", "translation": "Cổng" },
+    { "id": 301, "language": "vi-VN", "translation": "Tài khoản người nhận" },
+    { "id": 302, "language": "vi-VN", "translation": "ID doanh nghiệp" },
+    { "id": 303, "language": "vi-VN", "translation": "Mật khẩu doanh nghiệp" },
+    { "id": 304, "language": "vi-VN", "translation": "Đường dẫn kiểm tra" },
+    { "id": 305, "language": "vi-VN", "translation": "Đường dẫn kiểm tra cũ" },
+    { "id": 306, "language": "vi-VN", "translation": "Đường dẫn trả lại" },
+    { "id": 307, "language": "vi-VN", "translation": "Đường dẫn hủy" },
+    { "id": 308, "language": "vi-VN", "translation": "Đường dẫn thông báo" },
+    { "id": 309, "language": "vi-VN", "translation": "Đường dẫn quay về web" },
+    { "id": 310, "language": "vi-VN", "translation": "Ghi chú" },
+    { "id": 311, "language": "vi-VN", "translation": "Nhà cung cấp dịch vụ" },
+    { "id": 312, "language": "vi-VN", "translation": "Thời gian bắt đầu" },
+    { "id": 313, "language": "vi-VN", "translation": "Thời gian kết thúc" },
+    { "id": 314, "language": "vi-VN", "translation": "Tiền đã thu" },
+    { "id": 315, "language": "vi-VN", "translation": "Tiền còn phải thu" },
+    { "id": 316, "language": "vi-VN", "translation": "Người duyệt" },
+    { "id": 317, "language": "vi-VN", "translation": "Tên người quản lý" },
+    { "id": 318, "language": "vi-VN", "translation": "Ngày thanh toán" },
+    { "id": 319, "language": "vi-VN", "translation": "Ngày thực hiện" },
+    {
+      "id": 320,
+      "language": "vi-VN",
+      "translation": "Nhóm thiết lập nhận thông báo tài chính"
+    },
+    {
+      "id": 321,
+      "language": "vi-VN",
+      "translation": "Giới hạn tin nhắn văn bản"
+    },
+    { "id": 322, "language": "vi-VN", "translation": "Giới hạn thư điện tử" },
+    { "id": 323, "language": "vi-VN", "translation": "Giới hạn thông báo" },
+    { "id": 324, "language": "vi-VN", "translation": "Giá tin nhắn" },
+    { "id": 325, "language": "vi-VN", "translation": "Phí thanh toán dịch vụ" },
+    { "id": 326, "language": "vi-VN", "translation": "Trả nợ sớm" },
+    { "id": 327, "language": "vi-VN", "translation": "Nợ cuối kỳ" },
+    { "id": 328, "language": "vi-VN", "translation": "Các khoản phải thu" },
+    { "id": 329, "language": "vi-VN", "translation": "Đã thu" },
+    { "id": 330, "language": "vi-VN", "translation": "Tháng" },
+    { "id": 331, "language": "vi-VN", "translation": "Sử dụng cụm ngân hàng" },
+    { "id": 332, "language": "vi-VN", "translation": "Phong cách" },
+    { "id": 333, "language": "vi-VN", "translation": "Nội dung phụ" },
+    { "id": 334, "language": "vi-VN", "translation": "Mã yêu cầu thanh toán" },
+    { "id": 335, "language": "vi-VN", "translation": "Số lượng" },
+    { "id": 336, "language": "vi-VN", "translation": "Phí dịch vụ" },
+    { "id": 337, "language": "vi-VN", "translation": "Đơn thanh toán" },
+    { "id": 338, "language": "vi-VN", "translation": "Tự động" },
+    { "id": 339, "language": "vi-VN", "translation": "Cư dân" },
+    { "id": 340, "language": "vi-VN", "translation": "Ngày bắt đầu" },
+    { "id": 341, "language": "vi-VN", "translation": "Ngày kết thúc" },
+    { "id": 342, "language": "vi-VN", "translation": "Ngày kết thúc tmp" },
+    { "id": 343, "language": "vi-VN", "translation": "Đếm số tháng" },
+    { "id": 344, "language": "vi-VN", "translation": "ID cấu hình dịch vụ" },
+    { "id": 345, "language": "vi-VN", "translation": "Phí dịch vụ" },
+    { "id": 346, "language": "vi-VN", "translation": "Mục thông báo Gửi Id" },
+    { "id": 347, "language": "vi-VN", "translation": "Năm" },
+    { "id": 348, "language": "vi-VN", "translation": "Số mục lục" },
+    { "id": 349, "language": "vi-VN", "translation": "Số hoá đơn dịch vụ" },
+    { "id": 350, "language": "vi-VN", "translation": "Kiểu thanh toán" },
+    { "id": 351, "language": "vi-VN", "translation": "Tổng thư điện tử gửi" },
+    { "id": 352, "language": "vi-VN", "translation": "Tổng số thư điện tử mở" },
+    { "id": 353, "language": "vi-VN", "translation": "Tổng tin nhắn gửi" },
+    {
+      "id": 354,
+      "language": "vi-VN",
+      "translation": "Tổng căn hộ gửi thành công"
+    },
+    {
+      "id": 355,
+      "language": "vi-VN",
+      "translation": "Tổng thư điện tử gửi thành công"
+    },
+    {
+      "id": 356,
+      "language": "vi-VN",
+      "translation": "Tổng tin nhắn gửi thành công"
+    },
+    { "id": 357, "language": "vi-VN", "translation": "Tổng App đã gửi" },
+    { "id": 358, "language": "vi-VN", "translation": "Tổng App đã mở" },
+    {
+      "id": 359,
+      "language": "vi-VN",
+      "translation": "Tổng gửi App thành công"
+    },
+    { "id": 360, "language": "vi-VN", "translation": "Dịch vụ ID bãi đậu xe" },
+    { "id": 361, "language": "vi-VN", "translation": "Đơn thanh toán" },
+    { "id": 362, "language": "vi-VN", "translation": "Dịch vụ quản lý xe" },
+    { "id": 363, "language": "vi-VN", "translation": "Căn hộ chưa có cư dân" },
+    {
+      "id": 364,
+      "language": "vi-VN",
+      "translation": "Mã thanh toán không đúng"
+    },
+    { "id": 365, "language": "vi-VN", "translation": "Không được xóa" },
+    {
+      "id": 366,
+      "language": "vi-VN",
+      "translation": "Xóa mã thanh toán không thành công"
+    },
+    { "id": 367, "language": "vi-VN", "translation": "Xóa mã thành công" },
+    { "id": 368, "language": "vi-VN", "translation": "Tổng tiền không đúng" },
+    { "id": 369, "language": "vi-VN", "translation": "Căn hộ chưa có cư dân" },
+    { "id": 370, "language": "vi-VN", "translation": "Bất động sản không có chủ hộ" },
+    { "id": 371, "language": "vi-VN", "translation": "Thời gian không đúng" },
+    { "id": 372, "language": "vi-VN", "translation": "Dịch vụ không tồn tại" },
+    { "id": 373, "language": "vi-VN", "translation": "Không tồn tại căn hộ" },
+    { "id": 374, "language": "vi-VN", "translation": "Dịch vụ không tồn tại" },
+    {
+      "id": 375,
+      "language": "vi-VN",
+      "translation": "Giới hạn đặt chỗ theo căn hộ"
+    },
+    {
+      "id": 376,
+      "language": "vi-VN",
+      "translation": "Thời gian bắt đầu và thời gian kết thúc không đúng"
+    },
+    { "id": 377, "language": "vi-VN", "translation": "Không đủ chỗ trống" },
+    { "id": 378, "language": "vi-VN", "translation": "Xóa không thành công" },
+    { "id": 379, "language": "vi-VN", "translation": "Hủy không thành công" },
+    { "id": 380, "language": "vi-VN", "translation": "Thời gia chờ hủy" },
+    { "id": 381, "language": "vi-VN", "translation": "Hệ thống bận" },
+    { "id": 382, "language": "vi-VN", "translation": "Cư dân không tồn tại" },
+    { "id": 383, "language": "vi-VN", "translation": "Dịch vụ không tồn tại" },
+    {
+      "id": 384,
+      "language": "vi-VN",
+      "translation": "Đã tồn tại lượt đặt chỗ, không được xóa"
+    },
+    {
+      "id": 385,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được xóa"
+    },
+    {
+      "id": 386,
+      "language": "vi-VN",
+      "translation": "Cư dân không thuộc căn hộ"
+    },
+    {
+      "id": 387,
+      "language": "vi-VN",
+      "translation": "Cư dân đã ở trong căn hộ."
+    },
+    {
+      "id": 388,
+      "language": "vi-VN",
+      "translation": "Không tồn tại cấu hình dịch vụ"
+    },
+    {
+      "id": 389,
+      "language": "vi-VN",
+      "translation": "Giới hạn đặt chỗ theo căn hộ"
+    },
+    {
+      "id": 390,
+      "language": "vi-VN",
+      "translation": "Thời gian bắt đầu và thời gian kết thúc không đúng"
+    },
+    { "id": 391, "language": "vi-VN", "translation": "Không đủ chỗ trống" },
+    { "id": 392, "language": "vi-VN", "translation": "Xóa không thành công" },
+    { "id": 393, "language": "vi-VN", "translation": "Hủy không thành công" },
+    { "id": 394, "language": "vi-VN", "translation": "Hết thời gian hủy" },
+    { "id": 395, "language": "vi-VN", "translation": "Thành công" },
+    { "id": 396, "language": "en-US", "translation": "invalid phone number" },
+    {
+      "id": 396,
+      "language": "vi-VN",
+      "translation": "Số điện thoại không hợp lệ"
+    },
+    {
+      "id": 397,
+      "language": "en-US",
+      "translation": "Phone number has not been declared apartment"
+    },
+    {
+      "id": 397,
+      "language": "vi-VN",
+      "translation": "Số điện thoại chưa được khai báo căn hộ"
+    },
+    {
+      "id": 398,
+      "language": "en-US",
+      "translation": "OTP code generation failed"
+    },
+    {
+      "id": 398,
+      "language": "vi-VN",
+      "translation": "Tạo mã OTP không thành công"
+    },
+    {
+      "id": 399,
+      "language": "en-US",
+      "translation": "OTP code has been sent to the phone number, please enter the OTP code to log into the application!"
+    },
+    {
+      "id": 399,
+      "language": "vi-VN",
+      "translation": "Mã OTP đã được gửi vế số điện thoại, vui lòng nhập mã OTP để đăng nhập vào ứng dụng!"
+    },
+    { "id": 400, "language": "en-US", "translation": "Invalid OTP code" },
+    { "id": 400, "language": "vi-VN", "translation": "Mã OTP không hợp lệ" },
+    { "id": 401, "language": "en-US", "translation": "OTP code has expired" },
+    { "id": 401, "language": "vi-VN", "translation": "Mã OTP đã hết hạn" },
+    { "id": 402, "language": "vi-VN", "translation": "Hệ thống bận" },
+    { "id": 403, "language": "vi-VN", "translation": "Cổng thanh toán" },
+    { "id": 404, "language": "vi-VN", "translation": "Trạng thái an toàn" },
+    {
+      "id": 405,
+      "language": "vi-VN",
+      "translation": "Tài khoản email gửi thông báo"
+    },
+    {
+      "id": 406,
+      "language": "vi-VN",
+      "translation": "Mật khẩu email gửi thông báo"
+    },
+    {
+      "id": 407,
+      "language": "vi-VN",
+      "translation": "Tên thương hiệu gửi tin nhắn"
+    },
+    { "id": 408, "language": "vi-VN", "translation": "Tài khoản gửi tin nhắn" },
+    { "id": 409, "language": "vi-VN", "translation": "Mật khẩu gửi tin nhắn" },
+    { "id": 410, "language": "vi-VN", "translation": "Mẫu phiếu thu" },
+    { "id": 411, "language": "vi-VN", "translation": "được đồng hoá" },
+    { "id": 412, "language": "vi-VN", "translation": "Kênh" },
+    { "id": 413, "language": "vi-VN", "translation": "Hành động tạo" },
+    { "id": 414, "language": "vi-VN", "translation": "Hành động cập nhật" },
+    { "id": 415, "language": "vi-VN", "translation": "Hành động hủy" },
+    { "id": 416, "language": "vi-VN", "translation": "Hành động xóa" },
+    { "id": 417, "language": "vi-VN", "translation": "Hành động được duyệt" },
+    { "id": 418, "language": "vi-VN", "translation": "Hành động bình luận" },
+    { "id": 419, "language": "vi-VN", "translation": "Hành động đánh giá" },
+    {
+      "id": 420,
+      "language": "vi-VN",
+      "translation": "Dịch vụ tiện ích ID miễn phí"
+    },
+    { "id": 421, "language": "vi-VN", "translation": "Loại đặt" },
+    { "id": 422, "language": "vi-VN", "translation": "Tổng số chỗ" },
+    { "id": 423, "language": "vi-VN", "translation": "Tên thương gia" },
+    { "id": 424, "language": "vi-VN", "translation": "Mã đối tác" },
+    { "id": 425, "language": "vi-VN", "translation": "Chìa khoá truy cập" },
+    { "id": 426, "language": "vi-VN", "translation": "Khoá bí mật" },
+    { "id": 427, "language": "vi-VN", "translation": "Puri Trak ID" },
+    { "id": 428, "language": "vi-VN", "translation": "aqi" },
+    { "id": 429, "language": "vi-VN", "translation": "H" },
+    { "id": 430, "language": "vi-VN", "translation": "T" },
+    { "id": 431, "language": "vi-VN", "translation": "giờ" },
+    { "id": 432, "language": "vi-VN", "translation": "Thiết bị ID" },
+    { "id": 433, "language": "vi-VN", "translation": "Vĩ độ" },
+    { "id": 434, "language": "vi-VN", "translation": "Kinh độ" },
+    { "id": 435, "language": "vi-VN", "translation": "Nhiều giờ" },
+    {
+      "id": 436,
+      "language": "vi-VN",
+      "translation": "ID cấu hình dịch vụ tiện ích"
+    },
+    { "id": 437, "language": "vi-VN", "translation": "Cập nhật thành công" },
+    { "id": 438, "language": "vi-VN", "translation": "Gửi thư điện tử" },
+    { "id": 439, "language": "vi-VN", "translation": "Gửi tin nhắn" },
+    { "id": 440, "language": "vi-VN", "translation": "Gửi thông báo tới App" },
+    { "id": 441, "language": "vi-VN", "translation": "Phần trăm" },
+    { "id": 442, "language": "vi-VN", "translation": "Giá theo giờ" },
+    { "id": 443, "language": "vi-VN", "translation": "Giá cho người lớn" },
+    { "id": 444, "language": "vi-VN", "translation": "Giá cho trẻ em" },
+    {
+      "id": 445,
+      "language": "vi-VN",
+      "translation": "ID đơn đặt hàng thanh toán"
+    },
+    { "id": 446, "language": "vi-VN", "translation": "Cụm tòa nhà" },
+    { "id": 447, "language": "vi-VN", "translation": "Căn hộ" },
+    { "id": 448, "language": "vi-VN", "translation": "Dịch vụ quản lý xe Id" },
+    { "id": 449, "language": "vi-VN", "translation": "Số kí hiệu" },
+    { "id": 450, "language": "vi-VN", "translation": "Loại phí xe" },
+    { "id": 451, "language": "vi-VN", "translation": "Loại thẻ" },
+    { "id": 452, "language": "vi-VN", "translation": "Loại vé" },
+    { "id": 453, "language": "vi-VN", "translation": "Thời hạn vào" },
+    { "id": 454, "language": "vi-VN", "translation": "Nhập vào" },
+    { "id": 455, "language": "vi-VN", "translation": "Nhập ảnh 1" },
+    { "id": 456, "language": "vi-VN", "translation": "Nhập ảnh 2" },
+    { "id": 457, "language": "vi-VN", "translation": "Thời hạn thoát ra" },
+    { "id": 458, "language": "vi-VN", "translation": "Tháo ra" },
+    { "id": 459, "language": "vi-VN", "translation": "Thoát ảnh 1" },
+    { "id": 460, "language": "vi-VN", "translation": "Thoát ảnh 2" },
+    { "id": 461, "language": "vi-VN", "translation": "Thời gian đặt chỗ" },
+    { "id": 462, "language": "vi-VN", "translation": "Tổng số người lớn" },
+    { "id": 463, "language": "vi-VN", "translation": "Tổng số trẻ em" },
+    { "id": 464, "language": "vi-VN", "translation": "Luật lệ" },
+    {
+      "id": 465,
+      "language": "vi-VN",
+      "translation": "Yêu cầu thanh toán hết hạn"
+    },
+    { "id": 466, "language": "vi-VN", "translation": "Thời hạn hủy" },
+    {
+      "id": 467,
+      "language": "vi-VN",
+      "translation": "Giới hạn đặt chỗ của căn hộ"
+    },
+    { "id": 468, "language": "vi-VN", "translation": "ID quản lý thẻ" },
+    { "id": 469, "language": "vi-VN", "translation": "ID quản lý dịch vụ" },
+    { "id": 470, "language": "vi-VN", "translation": "Hết hạn thời gian" },
+    { "id": 471, "language": "vi-VN", "translation": "Cài đặt định mức nước" },
+    { "id": 472, "language": "vi-VN", "translation": "Thời gian sự kiện" },
+    { "id": 473, "language": "vi-VN", "translation": "Tên ảnh" },
+    { "id": 474, "language": "vi-VN", "translation": "Ảnh uri" },
+    { "id": 475, "language": "vi-VN", "translation": "Điện thoại" },
+    {
+      "id": 476,
+      "language": "vi-VN",
+      "translation": "Cập nhật mã yêu cầu thanh toán lỗi"
+    },
+    {
+      "id": 477,
+      "language": "en-US",
+      "translation": "Latch time greater than current time"
+    },
+    { "id": 479, "language": "en-US", "translation": "" },
+    {
+      "id": 480,
+      "language": "vi-VN",
+      "translation": "Thời gian chốt không được lớn hơn thời điểm hiện tại"
+    },
+    {
+      "id": 481,
+      "language": "en-US",
+      "translation": "Total inappropriate fees"
+    },
+    {
+      "id": 482,
+      "language": "vi-VN",
+      "translation": "Dịch vụ ở trạng thái đã thanh toán, không được cập nhật"
+    },
+    {
+      "id": 483,
+      "language": "en-US",
+      "translation": "Total inappropriate fees"
+    },
+    {
+      "id": 484,
+      "language": "en-US",
+      "translation": "Total inappropriate fees"
+    },
+    { "id": 485, "language": "vi-VN", "translation": "Tên luật" },
+    { "id": 486, "language": "vi-VN", "translation": "Nhãn" },
+    { "id": 487, "language": "vi-VN", "translation": "Dữ liệu" },
+    { "id": 488, "language": "vi-VN", "translation": "Dữ liệu Web" },
+    { "id": 489, "language": "vi-VN", "translation": "Dữ liệu quyền" },
+    { "id": 490, "language": "vi-VN", "translation": "Tòa nhà" },
+    {
+      "id": 491,
+      "language": "vi-VN",
+      "translation": "Cập nhật mã yêu cầu thanh toán lỗi"
+    },
+    {
+      "id": 492,
+      "language": "en-US",
+      "translation": "Inappropriate monthly fees"
+    },
+    { "id": 493, "language": "vi-VN", "translation": "Diện tích không đúng" },
+    {
+      "id": 494,
+      "language": "vi-VN",
+      "translation": "Có phí trong xác nhận thanh toán, cần thanh toán phí này trước từ màn hình xác nhận thanh toán"
+    },
+    {
+      "id": 495,
+      "language": "vi-VN",
+      "translation": "Kiểu căn hộ không đúng, không được xóa"
+    },
+    { "id": 496, "language": "vi-VN", "translation": "Cập nhật lỗi" },
+    { "id": 497, "language": "vi-VN", "translation": "Cập nhật thành công" },
+    { "id": 498, "language": "vi-VN", "translation": "Kiểu mẫu" },
+    { "id": 499, "language": "vi-VN", "translation": "Tuổi bắt đầu" },
+    { "id": 500, "language": "vi-VN", "translation": "Tuổi kết thúc" },
+    {
+      "id": 501,
+      "language": "vi-VN",
+      "translation": "Tổng số người nước ngoài"
+    },
+    { "id": 502, "language": "vi-VN", "translation": "Tổng số người Việt Nam" },
+    {
+      "id": 503,
+      "language": "vi-VN",
+      "translation": "Đường dẫn lấy thời tiết"
+    },
+    { "id": 504, "language": "vi-VN", "translation": "Id căn hộ không gửi" },
+    { "id": 505, "language": "vi-VN", "translation": "Thêm số điện thoại gửi" },
+    { "id": 506, "language": "vi-VN", "translation": "Thêm email gửi" },
+    { "id": 507, "language": "vi-VN", "translation": "Dữ liệu không hợp lệ" },
+    { "id": 509, "language": "vi-VN", "translation": "Tiền đặt cọc" },
+    { "id": 510, "language": "vi-VN", "translation": "Loại phí" },
+    { "id": 511, "language": "vi-VN", "translation": "Phiếu chi" },
+    { "id": 512, "language": "vi-VN", "translation": "Mẫu phiếu chi" },
+    { "id": 515, "language": "vi-VN", "translation": "Email không hợp lệ" },
+    { "id": 542, "language": "vi-VN", "translation": "Ngày hủy không đúng" },
+    { "id": 543, "language": "vi-VN", "translation": "Kích hoạt thành công" },
+    {
+      "id": 561,
+      "language": "en-US",
+      "translation": "Content must not contain special characters!"
+    },
+    {
+      "id": 561,
+      "language": "vi-VN",
+      "translation": "Nội dung không được chứa ký tự đặc biệt"
+    },
+    {
+      "id": 562,
+      "language": "en-US",
+      "translation": "The numerical value is too large!"
+    },
+    { "id": 562, "language": "vi-VN", "translation": "Giá trị số quá lớn" },
+    { "id": 563, "language": "vi-VN", "translation": "Hình ảnh" },
+    {
+      "id": 564,
+      "language": "vi-VN",
+      "translation": "Tin nhắn phản hồi mặc định"
+    },
+    { "id": 565, "language": "vi-VN", "translation": "Ngày hủy" },
+    {
+      "id": 570,
+      "language": "en-US",
+      "translation": "The apartment does not have a head, no reservations"
+    },
+    {
+      "id": 570,
+      "language": "vi-VN",
+      "translation": "Căn hộ không có chủ hộ, hoặc không được đặt chỗ"
+    },
+    { "id": 571, "language": "vi-VN", "translation": "tên căn hộ" },
+    { "id": 572, "language": "vi-VN", "translation": "lối vào căn hộ" },
+    {
+      "id": 583,
+      "language": "en-US",
+      "translation": "The service data added to the card is not correct"
+    },
+    {
+      "id": 583,
+      "language": "vi-VN",
+      "translation": "Dữ liệu dịch vụ được thêm vào thẻ không chính xác"
+    },
+    { "id": 584, "language": "vi-VN", "translation": "Đã thanh toán" },
+    { "id": 585, "language": "vi-VN", "translation": "Tên cư dân để tìm kiếm" },
+    { "id": 586, "language": "vi-VN", "translation": "Id căn hộ" },
+    { "id": 810, "language": "vi-VN", "translation": "Kích hoạt" },
+    {
+      "id": 811,
+      "language": "en-US",
+      "translation": "Residents have been added to the apartment already"
+    },
+    {
+      "id": 811,
+      "language": "vi-VN",
+      "translation": "Cư dân đã được thêm vào căn hộ"
+    },
+    {
+      "id": 814,
+      "language": "en-US",
+      "translation": "There are no more fees to generate payments"
+    },
+    {
+      "id": 814,
+      "language": "vi-VN",
+      "translation": "No extra fees to create a payment"
+    },
+    { "id": 815, "language": "en-US", "translation": "Invalid data!" },
+    { "id": 815, "language": "vi-VN", "translation": "Dữ liệu không hợp lệ" },
+    {
+      "id": 1022,
+      "language": "vi-VN",
+      "translation": "Mẫu thông báo không hợp lệ"
+    },
+    { "id": 1025, "language": "vi-VN", "translation": "" },
+    {
+      "id": 1027,
+      "language": "vi-VN",
+      "translation": "Đã được sử dụng nên không thể xóa"
+    },
+    {
+      "id": 1028,
+      "language": "vi-VN",
+      "translation": "Khu đang có căn hộ nên không thể xóa."
+    },
+    {
+      "id": 1029,
+      "language": "vi-VN",
+      "translation": "Cư dân không có trong căn hộ"
+    },
+    {
+      "id": 1030,
+      "language": "vi-VN",
+      "translation": "Căn hộ có một phí thanh toán chưa được phê duyệt"
+    },
+    { "id": 1031, "language": "vi-VN", "translation": "Căn hộ đang trống" },
+    {
+      "id": 1032,
+      "language": "vi-VN",
+      "translation": "Chưa khai báo chỉ số ban đầu"
+    },
+    { "id": 1033, "language": "vi-VN", "translation": "Chỉ số đầu không đúng" },
+    {
+      "id": 1034,
+      "language": "vi-VN",
+      "translation": "Tạo phí điện không thành công"
+    },
+    {
+      "id": 1035,
+      "language": "vi-VN",
+      "translation": "Chưa khai báo cấu hình dịch vụ"
+    },
+    {
+      "id": 1036,
+      "language": "vi-VN",
+      "translation": "Chưa khai báo cấu hình dịch vụ"
+    },
+    {
+      "id": 1037,
+      "language": "vi-VN",
+      "translation": "Thời gian bắt đầu không đúng"
+    },
+    {
+      "id": 1038,
+      "language": "vi-VN",
+      "translation": "Khai báo cấu hình không thành công"
+    },
+    {
+      "id": 1039,
+      "language": "vi-VN",
+      "translation": "Chưa khai báo chỉ số ban đầu"
+    },
+    {
+      "id": 1040,
+      "language": "vi-VN",
+      "translation": "Tạo phí nước không thành công"
+    },
+    {
+      "id": 1041,
+      "language": "vi-VN",
+      "translation": "Dịch vụ tòa nhà không tồn tại"
+    },
+    { "id": 1042, "language": "vi-VN", "translation": "Chưa khai báo dịch vụ" },
+    {
+      "id": 1043,
+      "language": "vi-VN",
+      "translation": "Khai báo dịch vụ không thành công"
+    },
+    {
+      "id": 1044,
+      "language": "vi-VN",
+      "translation": "Chưa khai báo chỉ số điện"
+    },
+    {
+      "id": 1045,
+      "language": "vi-VN",
+      "translation": "Khai báo chỉ số không thành công"
+    },
+    {
+      "id": 1046,
+      "language": "vi-VN",
+      "translation": "Khai báo xe không thành công"
+    },
+    {
+      "id": 1047,
+      "language": "vi-VN",
+      "translation": "Tạo dịch vụ không thành công"
+    },
+    {
+      "id": 1048,
+      "language": "vi-VN",
+      "translation": "Tạo phí xe không thành công"
+    },
+    { "id": 1049, "language": "vi-VN", "translation": "Dịch vụ không tồn tại" },
+    {
+      "id": 1050,
+      "language": "vi-VN",
+      "translation": "Tạo khai báo không thành công"
+    },
+    { "id": 1051, "language": "vi-VN", "translation": "Dịch vụ không tồn tại" },
+    {
+      "id": 1052,
+      "language": "vi-VN",
+      "translation": "Tạo căn hộ không thành công"
+    },
+    { "id": 1053, "language": "vi-VN", "translation": "Tòa nhà không tồn tại" },
+    {
+      "id": 1054,
+      "language": "vi-VN",
+      "translation": "Cần khai báo thông tin mặt  bằng trước"
+    },
+    {
+      "id": 1055,
+      "language": "vi-VN",
+      "translation": "Tạo phí không thành công"
+    },
+    { "id": 1056, "language": "en-US", "translation": "Wait after 5 minutes" },
+    { "id": 1056, "language": "vi-VN", "translation": "Chờ sau 5 phút" },
+    {
+      "id": 1057,
+      "language": "vi-VN",
+      "translation": "Tài khoản hoạc mật khẩu không đúng"
+    },
+    {
+      "id": 1058,
+      "language": "vi-VN",
+      "translation": "Bạn bị khóa trong các lần đăng nhập thất bại nhiều hơn {giới hạn} lần. Vui lòng thử lại sau {exp}"
+    },
+    {
+      "id": 1059,
+      "language": "vi-VN",
+      "translation": "thông tin không hợp lệ, xác nhận mật khẩu và mật khẩu không khớp"
+    },
+    {
+      "id": 1060,
+      "language": "vi-VN",
+      "translation": "Không có người dùng với địa chỉ email này."
+    },
+    { "id": 1061, "language": "vi-VN", "translation": "Tạo mới" },
+    { "id": 1062, "language": "vi-VN", "translation": "Cập nhật" },
+    {
+      "id": 1063,
+      "language": "vi-VN",
+      "translation": "Tạo cấu hình thanh toán"
+    },
+    { "id": 1064, "language": "vi-VN", "translation": "Cấu hình thanh toán" },
+    { "id": 1065, "language": "vi-VN", "translation": "Tìm kiếm" },
+    { "id": 1066, "language": "vi-VN", "translation": "Làm mới" },
+    {
+      "id": 1067,
+      "language": "vi-VN",
+      "translation": "Cập nhật cấu hình than toán: {name}"
+    },
+    { "id": 1068, "language": "vi-VN", "translation": "Xóa" },
+    {
+      "id": 1069,
+      "language": "vi-VN",
+      "translation": "Bạn có muốn xóa mục này không?"
+    },
+    { "id": 1070, "language": "vi-VN", "translation": "Kích hoạt" },
+    { "id": 1071, "language": "vi-VN", "translation": "Không kích hoạt" },
+    { "id": 1072, "language": "vi-VN", "translation": "Mật khẩu" },
+    {
+      "id": 1073,
+      "language": "vi-VN",
+      "translation": "Đặt lại mật khẩu {modelClass}:"
+    },
+    { "id": 1074, "language": "vi-VN", "translation": "Tên tài khoản" },
+    { "id": 1075, "language": "vi-VN", "translation": "Đặt lại mật khẩu" },
+    { "id": 1076, "language": "vi-VN", "translation": "Tạo {modelClass}" },
+    { "id": 1077, "language": "vi-VN", "translation": "Quản trị" },
+    {
+      "id": 1078,
+      "language": "vi-VN",
+      "translation": "Tạo vai trò người quản lý"
+    },
+    {
+      "id": 1079,
+      "language": "vi-VN",
+      "translation": "Các vai trò của người dùng"
+    },
+    {
+      "id": 1080,
+      "language": "vi-VN",
+      "translation": "Quản lý vai trò người dùng"
+    },
+    {
+      "id": 1081,
+      "language": "vi-VN",
+      "translation": "Cập nhật vai trò người quản lý"
+    },
+    { "id": 1082, "language": "vi-VN", "translation": "Vai trò người quản lý" },
+    {
+      "id": 1083,
+      "language": "vi-VN",
+      "translation": "Đặt lại mật khẩu người quản lý"
+    },
+    { "id": 1084, "language": "vi-VN", "translation": "Tài khoản Bql" },
+    { "id": 1085, "language": "vi-VN", "translation": "Trở lại" },
+    {
+      "id": 1086,
+      "language": "vi-VN",
+      "translation": "Tạo tài khoản Bql quản lý"
+    },
+    { "id": 1087, "language": "vi-VN", "translation": "Quản lý cập nhật" },
+    {
+      "id": 1088,
+      "language": "vi-VN",
+      "translation": "Đặt lại mật khẩu qua email"
+    },
+    { "id": 1089, "language": "vi-VN", "translation": "Tạo cụm tòa nhà" },
+    { "id": 1090, "language": "vi-VN", "translation": "Cụm tòa nhà" },
+    { "id": 1091, "language": "vi-VN", "translation": "Cập nhập cụm tòa nhà" },
+    { "id": 1092, "language": "vi-VN", "translation": "Tạo mẫu thông báo" },
+    { "id": 1093, "language": "vi-VN", "translation": "Mẫu thông báo" },
+    {
+      "id": 1094,
+      "language": "vi-VN",
+      "translation": "Cập nhật mẫu thông báo"
+    },
+    { "id": 1095, "language": "vi-VN", "translation": "Tạo trợ giúp" },
+    { "id": 1096, "language": "vi-VN", "translation": "Các trợ giúp" },
+    {
+      "id": 1097,
+      "language": "vi-VN",
+      "translation": "Cập nhật trợ giúp: {name}"
+    },
+    { "id": 1098, "language": "vi-VN", "translation": "Lưu" },
+    { "id": 1099, "language": "vi-VN", "translation": "Tạo dịch vụ hệ thống" },
+    { "id": 1100, "language": "vi-VN", "translation": "Dịch vụ hệ thống" },
+    {
+      "id": 1101,
+      "language": "vi-VN",
+      "translation": "cập nhật dịch vụ hệ thống: {name}"
+    },
+    {
+      "id": 1102,
+      "language": "vi-VN",
+      "translation": "Tạo mẫu hóa đơn dịch vụ"
+    },
+    { "id": 1103, "language": "vi-VN", "translation": "Mẫu hóa đơn dịch vụ" },
+    {
+      "id": 1104,
+      "language": "vi-VN",
+      "translation": "Cập nhật mẫu hóa đơn dịch vụ: {name}"
+    },
+    {
+      "id": 1105,
+      "language": "vi-VN",
+      "translation": "Tạo vai trò người dùng"
+    },
+    {
+      "id": 1106,
+      "language": "vi-VN",
+      "translation": "Cập nhật vai trò người dùng"
+    },
+    { "id": 1107, "language": "vi-VN", "translation": "Tạo danh mục trợ giúp" },
+    { "id": 1108, "language": "vi-VN", "translation": "Danh mục trợ giúp" },
+    {
+      "id": 1109,
+      "language": "vi-VN",
+      "translation": "Cập nhật danh mục trợ giúp: {name}"
+    },
+    { "id": 1110, "language": "vi-VN", "translation": "Tạo nhóm ủy quyền" },
+    { "id": 1111, "language": "vi-VN", "translation": "Nhóm ủy quyền" },
+    { "id": 1112, "language": "vi-VN", "translation": "Các nhóm ủy quyền" },
+    {
+      "id": 1113,
+      "language": "vi-VN",
+      "translation": "Cập nhật nhóm ủy quyền"
+    },
+    { "id": 1114, "language": "vi-VN", "translation": "Luci iBuilding" },
+    {
+      "id": 1115,
+      "language": "vi-VN",
+      "translation": "Cảnh báo! Đã xảy ra lỗi"
+    },
+    { "id": 1116, "language": "vi-VN", "translation": "Quay lại" },
+    {
+      "id": 1117,
+      "language": "vi-VN",
+      "translation": "Cập nhật người dùng thành công"
+    },
+    {
+      "id": 1118,
+      "language": "vi-VN",
+      "translation": "Đã cập nhật mật khẩu mới"
+    },
+    {
+      "id": 1119,
+      "language": "vi-VN",
+      "translation": "Trang yêu cầu không tồn tại."
+    },
+    {
+      "id": 1120,
+      "language": "vi-VN",
+      "translation": "Tạo vai trò thành công"
+    },
+    {
+      "id": 1121,
+      "language": "vi-VN",
+      "translation": "Cập nhật vai trò thành công"
+    },
+    {
+      "id": 1122,
+      "language": "vi-VN",
+      "translation": "Nhóm ủy quyền đang được sử dụng"
+    },
+    {
+      "id": 1123,
+      "language": "vi-VN",
+      "translation": "Xóa vai trò thành công"
+    },
+    {
+      "id": 1124,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang được sử dụng"
+    },
+    { "id": 1125, "language": "vi-VN", "translation": "Tạo vai trò lỗi" },
+    { "id": 1126, "language": "vi-VN", "translation": "Cấu hình thanh toán" },
+    { "id": 1127, "language": "vi-VN", "translation": "Danh mục trợ giúp" },
+    { "id": 1128, "language": "vi-VN", "translation": "Trợ giúp" },
+    { "id": 1129, "language": "vi-VN", "translation": "Dịch vụ" },
+    { "id": 1130, "language": "vi-VN", "translation": "Mẫu hóa đơn dịch vụ" },
+    { "id": 1131, "language": "vi-VN", "translation": "Mẫu thông báo" },
+    { "id": 1132, "language": "vi-VN", "translation": "Quản lý nhóm ủy quyền" },
+    { "id": 1133, "language": "vi-VN", "translation": "Quản lý người dùng" },
+    { "id": 1134, "language": "vi-VN", "translation": "Giấy phép" },
+    { "id": 1135, "language": "vi-VN", "translation": "Tạo thành công" },
+    { "id": 1136, "language": "vi-VN", "translation": "Lỗi tạo cụm tòa nhà" },
+    { "id": 1137, "language": "vi-VN", "translation": "Cập nhật thành công" },
+    {
+      "id": 1138,
+      "language": "vi-VN",
+      "translation": "Tòa nhà đang được sử dụng"
+    },
+    { "id": 1139, "language": "vi-VN", "translation": "Xóa thành công" },
+    { "id": 1140, "language": "vi-VN", "translation": "Tạo lỗi" },
+    {
+      "id": 1141,
+      "language": "vi-VN",
+      "translation": "Đặt lại mật khẩu khách hàng không thành công"
+    },
+    { "id": 1142, "language": "en-US", "translation": "Send email success" },
+    { "id": 1142, "language": "vi-VN", "translation": "Gửi mail thành công" },
+    { "id": 1143, "language": "vi-VN", "translation": "Xóa lỗi vai trò" },
+    { "id": 1144, "language": "vi-VN", "translation": "Chỉnh sửa" },
+    { "id": 1145, "language": "vi-VN", "translation": "Tìm kiếm" },
+    { "id": 1146, "language": "vi-VN", "translation": "Làm mới" },
+    { "id": 1147, "language": "vi-VN", "translation": "Trang không tồn tại" },
+    { "id": 1148, "language": "vi-VN", "translation": "Ngôn ngữ" },
+    { "id": 1149, "language": "vi-VN", "translation": "Danh sách ngôn ngữ" },
+    { "id": 1150, "language": "vi-VN", "translation": "Tạo mới" },
+    { "id": 1151, "language": "vi-VN", "translation": "Quét" },
+    { "id": 1152, "language": "vi-VN", "translation": "Tối ưu" },
+    { "id": 1153, "language": "vi-VN", "translation": "Nhập/Xuất" },
+    { "id": 1154, "language": "vi-VN", "translation": "Nhập" },
+    { "id": 1155, "language": "vi-VN", "translation": "Xuất" },
+    {
+      "id": 1156,
+      "language": "vi-VN",
+      "translation": "Bạn chắc chắn muốn xóa những mục này?"
+    },
+    {
+      "id": 1157,
+      "language": "vi-VN",
+      "translation": "Bạn chắc chắn muốn xóa mục này?"
+    },
+    { "id": 1158, "language": "vi-VN", "translation": "Dịch ngôn ngữ: {name}" },
+    { "id": 1159, "language": "vi-VN", "translation": "Lưu" },
+    { "id": 1160, "language": "vi-VN", "translation": "Đóng" },
+    { "id": 1161, "language": "vi-VN", "translation": "Tên người dùng" },
+    { "id": 1162, "language": "vi-VN", "translation": "Chìa khoá thật" },
+    { "id": 1163, "language": "vi-VN", "translation": "Mật khẩu hash" },
+    {
+      "id": 1164,
+      "language": "vi-VN",
+      "translation": "Mã thông báo đặt lại mật khẩu"
+    },
+    { "id": 1165, "language": "vi-VN", "translation": "ID chính" },
+    { "id": 1166, "language": "vi-VN", "translation": "Ip" },
+    { "id": 1167, "language": "vi-VN", "translation": "ID quản lí người dùng" },
+    { "id": 1168, "language": "vi-VN", "translation": "Địa chỉ Ip" },
+    { "id": 1169, "language": "vi-VN", "translation": "Người dụng khẩn cấp" },
+    { "id": 1170, "language": "vi-VN", "translation": "Phạm vi" },
+    { "id": 1171, "language": "vi-VN", "translation": "Đề mục" },
+    { "id": 1172, "language": "vi-VN", "translation": "Yêu cầu" },
+    { "id": 1173, "language": "vi-VN", "translation": "Phản hồi" },
+    { "id": 1174, "language": "vi-VN", "translation": "Thân tham số" },
+    { "id": 1175, "language": "vi-VN", "translation": "Truy vấn tham số" },
+    { "id": 1176, "language": "vi-VN", "translation": "Kiểm soát" },
+    { "id": 1177, "language": "vi-VN", "translation": "Hành động" },
+    { "id": 1178, "language": "vi-VN", "translation": "Xác thực" },
+    { "id": 1179, "language": "vi-VN", "translation": "Diện tích căn hộ" },
+    { "id": 1180, "language": "vi-VN", "translation": "Mã căn hộ" },
+    {
+      "id": 1181,
+      "language": "vi-VN",
+      "translation": "Điện thoại người dùng cư dân"
+    },
+    {
+      "id": 1182,
+      "language": "vi-VN",
+      "translation": "Thư điện tử người dùng cư dân"
+    },
+    {
+      "id": 1183,
+      "language": "vi-VN",
+      "translation": "Tên họ người dùng cư dân"
+    },
+    {
+      "id": 1184,
+      "language": "vi-VN",
+      "translation": "Tên gọi người dùng cư dân"
+    },
+    {
+      "id": 1185,
+      "language": "vi-VN",
+      "translation": "Giới tính người dùng cư dân"
+    },
+    { "id": 1186, "language": "vi-VN", "translation": "Ngày sinh người dùng" },
+    {
+      "id": 1187,
+      "language": "vi-VN",
+      "translation": "Ảnh đại diện người dùng"
+    },
+    { "id": 1188, "language": "vi-VN", "translation": "Mối quan hệ" },
+    {
+      "id": 1189,
+      "language": "vi-VN",
+      "translation": "Người dùng gửi thư điện tử"
+    },
+    {
+      "id": 1190,
+      "language": "vi-VN",
+      "translation": "Người dùng gửi thông báo"
+    },
+    { "id": 1191, "language": "vi-VN", "translation": "Cài đặt ứng dụng" },
+    { "id": 1192, "language": "vi-VN", "translation": "Khối hàng" },
+    { "id": 1193, "language": "vi-VN", "translation": "Mật khẩu" },
+    { "id": 1194, "language": "vi-VN", "translation": "Tên họ" },
+    { "id": 1195, "language": "vi-VN", "translation": "Tên gọi" },
+    { "id": 1196, "language": "vi-VN", "translation": "Ảnh đại diện" },
+    { "id": 1197, "language": "vi-VN", "translation": "Giới tính" },
+    { "id": 1198, "language": "vi-VN", "translation": "Ngày sinh" },
+    {
+      "id": 1199,
+      "language": "vi-VN",
+      "translation": "Tình trạng xác minh điện thoại"
+    },
+    {
+      "id": 1200,
+      "language": "vi-VN",
+      "translation": "Tình trạng xác định thư điện tử"
+    },
+    { "id": 1201, "language": "vi-VN", "translation": "Gắn thông báo" },
+    { "id": 1202, "language": "vi-VN", "translation": "Kích hoạt ứng dụng" },
+    { "id": 1203, "language": "vi-VN", "translation": "Gửi thông báo" },
+    { "id": 1204, "language": "en-US", "translation": "Import date" },
+    { "id": 1204, "language": "vi-VN", "translation": "Import Date" },
+    {
+      "id": 1205,
+      "language": "en-US",
+      "translation": "Date of temporary stay"
+    },
+    { "id": 1205, "language": "vi-VN", "translation": "Staying Date" },
+    { "id": 1206, "language": "en-US", "translation": "Visa expiry date" },
+    { "id": 1206, "language": "vi-VN", "translation": "Visa expiry date" },
+    { "id": 1207, "language": "en-US", "translation": "ID number" },
+    { "id": 1207, "language": "vi-VN", "translation": "ID number" },
+    {
+      "id": 1208,
+      "language": "en-US",
+      "translation": "Days for identity cards"
+    },
+    { "id": 1208, "language": "vi-VN", "translation": "ID issue date" },
+    {
+      "id": 1209,
+      "language": "en-US",
+      "translation": "Place for identity cards"
+    },
+    { "id": 1209, "language": "vi-VN", "translation": "ID" },
+    { "id": 1210, "language": "en-US", "translation": "nationality" },
+    { "id": 1210, "language": "vi-VN", "translation": "Nationality" },
+    { "id": 1211, "language": "en-US", "translation": "Work" },
+    { "id": 1211, "language": "vi-VN", "translation": "Job" },
+    { "id": 1212, "language": "vi-VN", "translation": "Huyện ID" },
+    { "id": 1213, "language": "vi-VN", "translation": "Tiếng việt" },
+    { "id": 1214, "language": "vi-VN", "translation": "Tiếng Anh" },
+    {
+      "id": 1215,
+      "language": "vi-VN",
+      "translation": "Dịch vụ đang sử dụng, không được cập nhật hoặc xóa"
+    },
+    {
+      "id": 1216,
+      "language": "vi-VN",
+      "translation": "Chưa khai báo tích hợp cổng thanh toán"
+    },
+    { "id": 1217, "language": "vi-VN", "translation": "Dữ liệu không hợp lệ" },
+    { "id": 1218, "language": "vi-VN", "translation": "Hệ thống bận" },
+    {
+      "id": 1219,
+      "language": "vi-VN",
+      "translation": "Tạo yêu cầu thanht toán không thành công"
+    },
+    {
+      "id": 1220,
+      "language": "vi-VN",
+      "translation": "Tạo yêu cầu thanht toán không thành công"
+    },
+    {
+      "id": 1221,
+      "language": "vi-VN",
+      "translation": "Cập nhật yêu cầu thanh toán không thành công"
+    },
+    {
+      "id": 1222,
+      "language": "vi-VN",
+      "translation": "Cập nhật yêu cầu thanh toán không thành công"
+    },
+    { "id": 1223, "language": "vi-VN", "translation": "Thành công" },
+    { "id": 1224, "language": "vi-VN", "translation": "Mã căn hộ không đúng" },
+    { "id": 1225, "language": "vi-VN", "translation": "Thời tiết" },
+    {
+      "id": 1226,
+      "language": "vi-VN",
+      "translation": "Danh mục đang được sử dụng, không thể xóa"
+    },
+    {
+      "id": 1227,
+      "language": "vi-VN",
+      "translation": "Duyệt không thành công, phí ở trạng thái chờ duyệt"
+    },
+    {
+      "id": 1228,
+      "language": "vi-VN",
+      "translation": "Mã nhân sự đã tồn tại"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# yii console commands
+/yii
+/yii_test
+/yii_test.bat
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+# ignore generated files
+/common/config/codeception-local.php
+/common/config/main-local.php
+/common/config/params-local.php
+/common/config/test-local.php
+
+/console/config/main-local.php
+/console/config/params-local.php
+/console/config/test-local.php
+
+/frontend/config/codeception-local.php
+/frontend/config/main-local.php
+/frontend/config/params-local.php
+/frontend/config/test-local.php
+/frontend/web/index.php
+/frontend/web/index-test.php
+/frontend/web/robots.txt
+
+/resident/config/codeception-local.php
+/resident/config/main-local.php
+/resident/config/params-local.php
+/resident/config/test-local.php
+/resident/web/index.php
+/resident/web/index-test.php
+/resident/web/robots.txt
+/resident/web/uploads
+
+/backend/config/codeception-local.php
+/backend/config/main-local.php
+/backend/config/params-local.php
+/backend/config/test-local.php
+/backend/web/index.php
+/backend/web/index-test.php
+/backend/web/robots.txt
+/backend/web/uploads
+
+/backendQltt/config/codeception-local.php
+/backendQltt/config/main-local.php
+/backendQltt/config/params-local.php
+/backendQltt/config/test-local.php
+/backendQltt/web/index.php
+/backendQltt/web/index-test.php
+/backendQltt/web/robots.txt
+/backendQltt/web/uploads

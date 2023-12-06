@@ -1,0 +1,556 @@
+<meta charset="UTF-8" /><style> p{ margin: 2px} </style><div>
+    <div style="margin-top: 25px;">
+        <div style="width: 330px;float: left">
+            <p style="margin-left:120.4pt;"><span style="color:#4f81bc; font-family:times new roman">TH&Ocirc;NG B&Aacute;O THU PH&Iacute; TH&Aacute;NG</span><span style="color:#4f81bc; font-family:times new roman">&nbsp;{{MONTH/YEAR}}&nbsp;EXPENSE NOTICE {{MONTH/YEAR}}</span></p>
+        </div>
+
+        <div style="float: right">
+            <p style="margin-left:57.75pt; text-align:right"><span style="font-family:times new roman">Số: </span><span style="font-size:14px">{{APARTMENT.name}}</span><span style="font-family:times new roman">_{{MONTH/YEAR}}_TBP</span></p>
+
+            <p style="margin-left:104.2pt"><span style="font-family:times new roman">Ng&agrave;y:</span><span style="font-family:times new roman">&nbsp;{{DAY/MONTH/YEAR}}</span></p>
+        </div>
+
+        <div style="clear: both;height: 0;">&nbsp;</div>
+    </div>
+
+    <p style="margin: 5px"><span style="font-size:14px">&nbsp;<strong><span style="font-family:times new roman">T&ecirc;n Kh&aacute;ch h&agrave;ng/ Client&#39;s Name: </span></strong><span style="font-family:times new roman">{{APARTMENT.resident_user_name}}&nbsp;&nbsp;</span></span> <span style="font-size:14px"><strong><span style="font-family:times new roman">&nbsp;M&atilde; căn hộ :</span></strong><strong><span style="font-family:times new roman">&nbsp;&nbsp;</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong>&nbsp;{{APARTMENT.name}}</span></p>
+
+    <div>
+        {{#NOT_EMPTY_BUILDING}}
+        <ol style="margin: 0pt; margin-bottom: 3px; padding-left: 0pt;" type="I">
+            <li style="margin-left: 14.9pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                 <span style="width: 180pt; display: inline-block;">
+                           <span style="letter-spacing: normal;">Phí quản lý/</span><span style="letter-spacing: -1.15pt;">&nbsp;</span>
+                          <span style="letter-spacing: normal;">Management</span><span style="letter-spacing: -0.35pt;">&nbsp;</span><span style="letter-spacing: normal;">Cost</span>
+                 </span>
+                {{#FEE_BUILDING}} {{#price}}
+                <span style="font-size: 8pt; letter-spacing: normal;">Từ/from</span><span style="font-size: 8pt; letter-spacing: normal;">&nbsp;&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{start_time}}</span>
+                <span style="font-size: 8pt; letter-spacing: normal;">đến/to</span><span style="font-size: 8pt; letter-spacing: 0.8pt;">&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{end_time}}</span>
+                {{/price}}  {{/FEE_BUILDING}}
+            </li>
+        </ol>
+        <table style="width: 100%; border: 1pt solid #000000; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Diện tích / Total area</span></strong></p>
+                </td>
+                <td style="width: 73.85pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Đơn giá/m</span></strong>2</p>
+                </td>
+                <td style="width: 58.25pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Unit Price/m</span></strong>2</p>
+                </td>
+                <td style="width: 87.15pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Thành tiền/Amount - ( VND)</span></strong></p>
+                </td>
+                <td style="width: 56.1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">CÁC KHOẢN NỢ PHÍ</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+            </tr>
+            {{#FEE_BUILDING}} {{#price}}
+            <tr>
+                <td style="width: 49.4pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">1</span></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{APARTMENT.capacity}}</span></p>
+                </td>
+                <td style="width: 133.1pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><span style="font-family: 'Times New Roman';">{{config_price}}</span></p>
+                </td>
+                <td style="width: 87.15pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{price}}</span></p>
+                </td>
+                <td style="width: 56.1pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">-</span></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/price}}  {{/FEE_BUILDING}}
+            {{#BUILDING_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Nợ cũ</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="4">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{BUILDING_NO_CU}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/BUILDING_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tổng cộng/Total payment</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="4">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{BUILDING_TOTAL_PRICE}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        {{/NOT_EMPTY_BUILDING}}
+        {{#NOT_EMPTY_PARKING}}
+        <ol style="margin: 0pt; margin-bottom: 3px; padding-left: 0pt;" type="I">
+            <li style="margin-left: 14.9pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                 <span style="width: 180pt; display: inline-block;">
+                           <span style="letter-spacing: normal;">Phí gửi xe/</span><span style="letter-spacing: -1.15pt;">&nbsp;</span>
+                          <span style="letter-spacing: normal;">Parking</span><span style="letter-spacing: -0.35pt;">&nbsp;</span><span style="letter-spacing: normal;">Cost</span>
+                 </span>
+                {{#FEE_PARKING}} {{#price}}
+                <span style="font-size: 8pt; letter-spacing: normal;">Từ/from</span><span style="font-size: 8pt; letter-spacing: normal;">&nbsp;&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{start_time}}</span>
+                <span style="font-size: 8pt; letter-spacing: normal;">đến/to</span><span style="font-size: 8pt; letter-spacing: 0.8pt;">&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{end_time}}</span>
+                {{/price}}  {{/FEE_PARKING}}
+            </li>
+        </ol>
+        <table style="width: 100%; border: 1pt solid #000000; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Biển số / Number</span></strong></p>
+                </td>
+                <td style="width: 87.15pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Thành tiền/Amount - ( VND)</span></strong></p>
+                </td>
+                <td style="width: 56.1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">CÁC KHOẢN NỢ PHÍ</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+            </tr>
+            {{#FEE_PARKING}} {{#price}}
+            <tr>
+                <td style="width: 49.4pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">1</span></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{number}}</span></p>
+                </td>
+                <td style="width: 87.15pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{price}}</span></p>
+                </td>
+                <td style="width: 56.1pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">-</span></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/price}}  {{/FEE_PARKING}}
+            {{#PARKING_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Nợ cũ</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{PARKING_NO_CU}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/PARKING_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tổng cộng/Total payment</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{PARKING_TOTAL_PRICE}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        {{/NOT_EMPTY_PARKING}}
+        {{#NOT_EMPTY_WATER}}
+        <ol style="margin: 0pt; margin-bottom: 3px;padding-left: 0pt;" type="I">
+            <li style="margin-top: 7.25pt; margin-left: 22.05pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                  <span style="width: 180pt; display: inline-block;">
+                           <span style="letter-spacing: normal;">Tiền nước/</span><span style="letter-spacing: 0.1pt;">&nbsp;</span>
+                           <span style="letter-spacing: normal;">Water</span><span style="letter-spacing: 0.05pt;">&nbsp;</span><span style="letter-spacing: normal;">cost:</span>
+                 </span>
+                {{#FEE_WATER}}
+                <span style="font-size: 8pt; letter-spacing: normal;">Từ/from</span><span style="font-size: 8pt; letter-spacing: normal;">&nbsp;&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{start_time}}</span>
+                <span style="font-size: 8pt; letter-spacing: normal;">đến/to</span><span style="font-size: 8pt; letter-spacing: 0.8pt;">&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{end_time}}</span>
+                {{/FEE_WATER}}
+            </li>
+        </ol>
+        <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-style: solid; border-width: 1pt; vertical-align: top;" rowspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">1.Phí nước</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Chỉ số cũ / Previous Indicator</span></strong></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Chỉ số mới / Current Indicator</span></strong></p>
+                </td>
+                <td style="width: 203.65pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tiêu thụ / Consumption (m3)</span></strong></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+            </tr>
+            {{#FEE_WATER}}
+            <tr>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{start_index}}</span></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{end_index}}</span></p>
+                </td>
+                <td style="width: 203.65pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><span style="font-family: 'Times New Roman';">{{total_index}}</span></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 49.4pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tiêu thụ thực tế Consumption (m3)</span></strong></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Đơn giá/m3 Price/m3</span></strong></p>
+                </td>
+                <td style="width: 116.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Thành tiền / Amount – VND</span></strong></p>
+                </td>
+                <td style="width: 180.65pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 49.4pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">1</span></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{total_index}}</span></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">Định mức</span></p>
+                </td>
+                <td style="width: 116.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{price}}</span></p>
+                </td>
+                <td style="width: 180.65pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{MT}}</span></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/FEE_WATER}}
+            {{#WATER_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Nợ cũ:</span></strong></p>
+                </td>
+                <td style="width: 278.5pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="3">
+                    <p><span style="font-family: 'Times New Roman';">{{WATER_NO_CU}}</span></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/WATER_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tổng cộng/Total payment</span></strong></p>
+                </td>
+                <td style="width: 278.5pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="3">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{WATER_TOTAL_PRICE}}</span></strong></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        {{/NOT_EMPTY_WATER}}
+
+        {{#NOT_EMPTY_ELECTRIC}}
+        <ol style="margin: 0pt; margin-bottom: 3px;padding-left: 0pt;" type="I">
+            <li style="margin-top: 7.25pt; margin-left: 22.05pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                  <span style="width: 180pt; display: inline-block;">
+                           <span style="letter-spacing: normal;">Tiền điện/</span><span style="letter-spacing: 0.1pt;">&nbsp;</span>
+                           <span style="letter-spacing: normal;">ELECTRIC</span><span style="letter-spacing: 0.05pt;">&nbsp;</span><span style="letter-spacing: normal;">cost:</span>
+                 </span>
+                {{#FEE_ELECTRIC}}
+                <span style="font-size: 8pt; letter-spacing: normal;">Từ/from</span><span style="font-size: 8pt; letter-spacing: normal;">&nbsp;&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{start_time}}</span>
+                <span style="font-size: 8pt; letter-spacing: normal;">đến/to</span><span style="font-size: 8pt; letter-spacing: 0.8pt;">&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{end_time}}</span>
+                {{/FEE_ELECTRIC}}
+            </li>
+        </ol>
+        <table style="width: 100%; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-style: solid; border-width: 1pt; vertical-align: top;" rowspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">1.Phí điện</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Chỉ số cũ / Previous Indicator</span></strong></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Chỉ số mới / Current Indicator</span></strong></p>
+                </td>
+                <td style="width: 203.65pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tiêu thụ / Consumption (m3)</span></strong></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+            </tr>
+            {{#FEE_ELECTRIC}}
+            <tr>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{start_index}}</span></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{end_index}}</span></p>
+                </td>
+                <td style="width: 203.65pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><span style="font-family: 'Times New Roman';">{{total_index}}</span></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 49.4pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tiêu thụ thực tế Consumption (m3)</span></strong></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Đơn giá/m3 Price/m3</span></strong></p>
+                </td>
+                <td style="width: 116.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Thành tiền / Amount – VND</span></strong></p>
+                </td>
+                <td style="width: 180.65pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 49.4pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">1</span></p>
+                </td>
+                <td style="width: 75.45pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{total_index}}</span></p>
+                </td>
+                <td style="width: 73.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">Định mức</span></p>
+                </td>
+                <td style="width: 116.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{price}}</span></p>
+                </td>
+                <td style="width: 180.65pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">{{MT}}</span></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/FEE_ELECTRIC}}
+            {{#ELECTRIC_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Nợ cũ:</span></strong></p>
+                </td>
+                <td style="width: 278.5pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="3">
+                    <p><span style="font-family: 'Times New Roman';">{{ELECTRIC_NO_CU}}</span></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/ELECTRIC_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tổng cộng/Total payment</span></strong></p>
+                </td>
+                <td style="width: 278.5pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="3">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{ELECTRIC_TOTAL_PRICE}}</span></strong></p>
+                </td>
+                <td style="width: 93.85pt; border-style: solid; border-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        {{/NOT_EMPTY_ELECTRIC}}
+
+        {{#NOT_EMPTY_BOOKING}}
+        <ol style="margin: 0pt; margin-bottom: 3px;padding-left: 0pt;" type="I">
+            <li style="margin-top: 7.25pt; margin-left: 22.05pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                  <span style="width: 180pt; display: inline-block;">
+                           <span style="letter-spacing: normal;">Dịch vụ tiện ích/</span><span style="letter-spacing: 0.1pt;">&nbsp;</span>
+                           <span style="letter-spacing: normal;">Utility Service</span><span style="letter-spacing: 0.05pt;">&nbsp;</span><span style="letter-spacing: normal;">cost:</span>
+                 </span>
+                {{#FEE_BOOKING}}
+                <span style="font-size: 8pt; letter-spacing: normal;">Từ/from</span><span style="font-size: 8pt; letter-spacing: normal;">&nbsp;&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{start_time}}</span>
+                <span style="font-size: 8pt; letter-spacing: normal;">đến/to</span><span style="font-size: 8pt; letter-spacing: 0.8pt;">&nbsp;</span><span style="font-size: 8pt; letter-spacing: normal;">{{end_time}}</span>
+                {{/FEE_BOOKING}}
+            </li>
+        </ol>
+        <table style="width: 100%; border: 1pt solid #000000; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 87.15pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Thành tiền/Amount - ( VND)</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+            </tr>
+            {{#FEE_BOOKING}} {{#price}}
+            <tr>
+                <td style="width: 49.4pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">1</span></p>
+                </td>
+                <td style="width: 87.15pt; border-style: solid; border-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><span style="font-family: 'Times New Roman';">{{price}}</span></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/price}}  {{/FEE_BOOKING}}
+            {{#BOOKING_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Nợ cũ</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{BOOKING_NO_CU}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/BOOKING_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tổng cộng/Total payment</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{BOOKING_TOTAL_PRICE}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        {{/NOT_EMPTY_BOOKING}}
+
+        {{#NOT_EMPTY_OLD_DEBIT}}
+        <ol style="margin: 0pt; margin-bottom: 3px;padding-left: 0pt;" type="I">
+            <li style="margin-top: 7.25pt; margin-left: 22.05pt; widows: 0; orphans: 0; font-family: 'Times New Roman'; font-size: 11pt; font-weight: bold; letter-spacing: -0.05pt;">
+                <span style="width: 180pt;">
+                           <span style="">Nợ cũ chuyển giao/Old Debt Transferred</span><span style="letter-spacing: 0.1pt;">&nbsp;</span><span style="letter-spacing: normal;">cost:</span>
+                 </span>
+            </li>
+        </ol>
+        <table style="width: 100%; border: 1pt solid #000000; border-collapse: collapse; text-align: center; font-size: 8pt;" cellspacing="0" cellpadding="0">
+            <tbody>
+            <tr>
+                <td style="width: 49.4pt; border-right-style: solid; border-right-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">STT/No</span></strong></p>
+                </td>
+                <td style="width: 87.15pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">Thành tiền/Amount - ( VND)</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-left-style: solid; border-left-width: 1pt; border-bottom-style: solid; border-bottom-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Ghi chú/Note</span></strong></p>
+                </td>
+            </tr>
+            {{#OLD_DEBIT_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Nợ cũ</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{OLD_DEBIT_NO_CU}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            {{/OLD_DEBIT_NO_CU}}
+            <tr>
+                <td style="width: 125.85pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; vertical-align: top;">
+                    <p><strong><span style="font-family: 'Times New Roman';">Tổng cộng/Total payment</span></strong></p>
+                </td>
+                <td style="width: 278.35pt; border-top-style: solid; border-top-width: 1pt; border-right-style: solid; border-right-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;" colspan="2">
+                    <p><strong><span style="font-family: 'Times New Roman';">{{OLD_DEBIT_NO_CU}}</span></strong></p>
+                </td>
+                <td style="width: 93.75pt; border-top-style: solid; border-top-width: 1pt; border-left-style: solid; border-left-width: 1pt; vertical-align: top;">
+                    <p><span style="font-family: 'Times New Roman';">&nbsp;</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        {{/NOT_EMPTY_OLD_DEBIT}}
+
+        <p><span style="font-size:14px"><strong><span style="font-family:times new roman">&nbsp; &nbsp;III. Tổng thanh to&aacute;n /Total payment :&nbsp; </span></strong><span style="font-family:times new roman">&nbsp;{{TOTAL_PAYMENT}}</span></span></p>
+
+        <p style="margin-left:7.55pt"><span style="font-size:14px"><span style="font-family:times new roman">Hạn thanh to&aacute;n / Payment due date : 10/08/2019 (AUGUST 10st 08).</span></span></p>
+
+        <p style="margin-left:7.55pt"><span style="font-size:14px"><span style="font-family:times new roman">Xin vui l&ograve;ng thanh to&aacute;n số tiền tr&ecirc;n cho Ban Quản l&yacute; tại sảnh T1 hoặc chuyển v&agrave;o t&agrave;i khoản c&ocirc;ng ty.</span></span></p>
+
+        <p style="margin-left:7.55pt"><span style="font-size:14px"><span style="font-family:times new roman">You are kindly requested to finalize the above payment for Management Unit or transfer your payment to our active bank account.</span></span></p>
+
+        <p style="margin-left:7.7pt"><span style="font-size:14px"><span style="font-family:times new roman">T&ecirc;n người nhận/At :&nbsp;</span><strong><span style="font-family:times new roman">C&Ocirc;NG TY TNHH TM DV PJK ONE</span></strong></span></p>
+
+        <p style="margin-left:7.7pt"><span style="font-size:14px"><span style="font-family:times new roman">Số t&agrave;i khoản / Account No. : {{BUILDING_CLUSTER.bank_account}}&nbsp;&ndash; Tại Ng&acirc;n H&agrave;ng : {{BUILDING_CLUSTER.bank_name}}&nbsp;</span></span></p>
+
+        <p style="margin-left:7.7pt"><strong><span style="font-family:times new roman">Vui</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">l&ograve;ng</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">ghi</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">đầy</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">đủ</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">khi</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">nộp</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">tiền</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">qua</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">t&agrave;i</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">khoản</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">với</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">nội</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">dung:</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">M&atilde;</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">căn:</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">&hellip;&hellip;nộp</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">Ph&iacute;</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">QL</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">th&aacute;ng</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">&hellip;&hellip;.</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">+</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">Ph&iacute;</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">nước</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">th&aacute;ng...</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">) Ghi ch&uacute; /</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">Note:</span></strong></p>
+
+        <p style="margin-left:19.2pt"><span style="font-size:14px"><em><span style="font-family:times new roman">*</span></em>&nbsp;&nbsp;<em><span style="font-family:times new roman">Nếu</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">sau</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">ng&agrave;y</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">16</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">của</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">th&aacute;ng</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">m&agrave;</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">Qu&yacute;</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">Cư</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">D&acirc;n</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">vẫn</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">chưa</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">thanh</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">to&aacute;n</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">tiền</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">th&igrave;</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">BQL</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">sẽ</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">tạm</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">ngưng</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">cung</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">cấp</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">dịch</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">vụ</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">tiện</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">&iacute;ch.</span></em></span></p>
+
+        <p style="margin-left:16.9pt"><span style="font-size:14px"><em><span style="font-family:times new roman">*</span></em>&nbsp;&nbsp;<em><span style="font-family:times new roman">The</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">Building</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">managerment</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">will</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">cut</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">service</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">the</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">nonpayment</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">Apartment</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">after</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">16</span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman"><sup>th</sup></span></em><em><span style="font-family:times new roman">&nbsp;</span></em><em><span style="font-family:times new roman">.</span></em></span></p>
+
+        <p><span style="font-size:14px"><em><span style="font-family:times new roman">&nbsp;</span></em></span></p>
+
+        <p style="margin-right:54.25pt; text-align:center"><span style="font-size:14px"><strong><span style="font-family:times new roman">BAN QUẢN L&Yacute;</span></strong><strong><span style="font-family:times new roman">&nbsp;</span></strong><strong><span style="font-family:times new roman">T&Ograve;A</span></strong> <strong><span style="font-family:times new roman">&nbsp;</span></strong> <strong><span style="font-family:times new roman">NH&Agrave;</span></strong>&nbsp; <strong><span style="font-family:times new roman">NGƯỜI</span></strong> <strong><span style="font-family:times new roman">&nbsp;</span></strong> <strong><span style="font-family:times new roman">LẬP</span></strong> <img alt="" src="https://myfiles.space/user_files/35115_50076e3403dd91bd/1566660913_thong-bao-phi-1/1566660913_thong-bao-phi-1.002.png" style="height:92px; width:657px" /></span></p>
+
+        <p style="margin-right:103.85pt; text-align:right"><span style="font-size:14px"><strong><span style="font-family:times new roman">MAI THỊ TH&Uacute;Y</span></strong></span></p>
+    </div>
+</div>

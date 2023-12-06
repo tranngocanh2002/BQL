@@ -1,0 +1,61 @@
+.formDetailPage {
+  background-color: white;
+
+  .block {
+    border-radius: 4px;
+    background: white;
+  }
+  .nameTable {
+    font-weight: bold;
+    font-size: 14px;
+    @media screen and (min-width: 1280px) {
+      font-size: 16px;
+    }
+    color: #1b1b27;
+  }
+  .rowInfoTitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .separator {
+    border-top: 1px solid #f6f6f6;
+  }
+
+  .rowInfo {
+    padding: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .rowmargin {
+    margin-bottom: 30px;
+  }
+  .colTable {
+    min-height: ~"calc(100vh - 480px)";
+  }
+  .iconAction {
+    cursor: pointer;
+    :hover {
+      color: dodgerblue;
+    }
+  }
+  .ant-table {
+    .ant-table-tbody > tr {
+      // text-align: center;
+      font-weight: 100;
+      font-size: 14px;
+      color: #1b1b27;
+      cursor: pointer;
+      @media screen and (min-width: 1280px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.ant-upload-list .ant-upload-list-picture-card {
+  float: left;
+  margin-right: 8px;
+  display: flex;
+}

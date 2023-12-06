@@ -1,0 +1,144 @@
+.customCalender {
+    border-bottom: 1px solid rgba(120,132,158,0.1);
+    .ant-fullcalendar-header {
+        display: flex;
+        justify-content: flex-end;
+        height: 70px;
+        align-items: center;
+        .ant-fullcalendar-month-select {
+            // margin-right: 30px;
+        }
+    }
+}
+.customSchedules {
+    border-left : 1px solid rgba(120,132,158,0.1);
+    border-right : 1px solid rgba(120,132,158,0.1);
+    .ant-fullcalendar-header {
+        display: none;
+    }
+    .events {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .events .ant-badge-status {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+        text-overflow: ellipsis;
+        font-size: 12px;
+      }
+      .notes-month {
+        text-align: center;
+        font-size: 28px;
+      }
+      .notes-month section {
+        font-size: 28px;
+      }
+      .ant-fullcalendar-date {
+          height: 131px;
+          .ant-fullcalendar-content {
+              height: 90px;
+          }
+      }
+}
+
+.ant-popover-inner-content{
+    padding: 0 !important;
+}
+.customCardBody {
+    // .ant-card-body {
+    //     padding: 12px !important;
+    // }
+    margin-top: 10px;
+    max-height: 300px;
+    overflow : auto;
+}
+
+.customTextPopover {
+    width : 250px;
+    cursor: pointer;
+    .ant-badge-status {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+}
+
+.buttonCssEdit {
+    position: absolute;
+    font-size: 1.3rem;
+    left: 80px;
+    top: 40px;
+    transform: translate(-150%, 0);
+}
+
+.buttonCssAdd {
+    position: absolute;
+    font-size: 1.3rem;
+    right: 0px;
+    top: 790px;
+    transform: translate(-150%, 0);
+}
+
+.antDot {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.truncateText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.customTagAnt {
+    width: 40px;
+    margin: 0;
+    text-align: right;
+    font-style: italic;
+}
+
+.margin {
+    margin: 0;
+}
+
+.month {
+    .ant-fullcalendar-month {
+        .ant-fullcalendar-value {
+            width: 70px;
+            border-top: 1px solid transparent !important;
+            border-radius: 4px;
+        }
+    }
+}
+
+.truncate {
+    // white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    // color: white;
+}
+
+.customHoverSchedule{ 
+    cursor: pointer;
+    width: 250px;
+    border-radius: 4;
+    padding-left: 9;
+    padding-top: 4; 
+    padding-bottom: 4;
+    :hover {
+        background-color: rgba(52, 151, 253, 0.1);
+        border-radius: 4;
+        padding-left: 9;
+        padding-top: 4; 
+        padding-bottom: 4;
+    }
+}

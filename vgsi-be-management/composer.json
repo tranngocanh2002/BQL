@@ -1,0 +1,81 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "dmstr/yii2-adminlte-asset": "2.6",
+        "insolita/yii2-adminlte-widgets": "~2.0",
+        "damirka/yii2-jwt": "v0.2.1",
+        "yiisoft/yii2-redis": "~2.0.0",
+        "yiisoft/yii2-mongodb": ">=2.1.0",
+        "yii2tech/ar-softdelete": "^1.0",
+        "riskivy/yii2-rest-api-captcha": "^2.1",
+        "anhskohbo/accountkit": "^1.0",
+        "php-http/guzzle6-adapter": "1.1",
+        "norkunas/onesignal-php-api": "^1.10",
+        "videlalvaro/php-amqplib": "2.7.2",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "kartik-v/yii2-field-range": "*",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "kartik-v/yii2-export": "*",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-editable": "*",
+        "kartik-v/yii2-grid": "*",
+        "kartik-v/yii2-mpdf": "*",
+        "kartik-v/yii2-detail-view": "*",
+        "kartik-v/yii2-widget-typeahead": "*",
+        "kartik-v/yii2-checkbox-x": "*",
+        "kartik-v/yii2-datecontrol": "*",
+        "kartik-v/yii2-krajee-base": "~2.0.0",
+        "kartik-v/yii2-builder": "*",
+        "kartik-v/yii2-date-range": "*",
+        "kartik-v/yii2-tree-manager": "@dev",
+        "2amigos/qrcode-library": "~1.1",
+        "phpoffice/phpspreadsheet": "^1.7",
+        "lajax/yii2-translate-manager": "^1.7",
+        "mustache/mustache": "~2.5",
+        "phpseclib/phpseclib": "~2.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.1.0",
+        "yiisoft/yii2-gii": "~2.1.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.4.0",
+        "phpunit/phpunit": "~6.5.5",
+        "codeception/verify": "~1.0.0",
+        "symfony/browser-kit": ">=2.7 <=4.2.4",
+        "light/yii2-swagger": "~1.0.4",
+        "2amigos/yii2-ckeditor-widget" : "~1.0",
+        "kartik-v/yii2-editors": "@dev"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }    
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": "php init --env=Development --overwrite=n"
+    }
+}

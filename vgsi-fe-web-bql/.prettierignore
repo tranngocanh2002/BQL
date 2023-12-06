@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.prettierrc.json
+.yarn
+package.json
+yarn.lock
+yarn-error.log
+babel.config.js
+appveyor.yml
+# README.md
+.gitignore
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+.vscode
+.history
+.env
+```

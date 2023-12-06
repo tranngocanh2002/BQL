@@ -1,0 +1,19 @@
+{
+  "short_name": "Waterpoint",
+  "name": "Meyhomes",
+  "icons": [
+    {
+      "src": "icon-514.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "description": "Web application for management in building, urban",
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "permissions": ["gcm", "storage", "notifications", "identity", "browser"],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#3367D6"
+}

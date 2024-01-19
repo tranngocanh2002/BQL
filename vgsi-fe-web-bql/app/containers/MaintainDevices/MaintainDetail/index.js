@@ -96,7 +96,7 @@ export class MaintainDetail extends React.PureComponent {
     });
   };
   render() {
-    const URL_API = "https://web.tadt.building.luci.vn";
+    const URL_API = "http://localhost";
     const { MaintainDetail } = this.props;
     const { formatMessage } = this.props.intl;
     const { getFieldDecorator } = this.props.form;

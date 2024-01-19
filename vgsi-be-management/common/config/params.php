@@ -170,7 +170,7 @@ return [
             'http://localhost:3000',
             'https://gis.meyid.net'
         ],
-        'DomainOriginNew' => 'https://web.tadt.building.luci.vn'
+        'DomainOriginNew' => 'http://localhost'
     ],
     'mode_otp' => 'VOICE', // VOICE|SMS
     'path_root_command' => 'cd /var/www/be-management/;',
